@@ -51,17 +51,17 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
       {/* Hero */}
       <section className="relative isolate overflow-hidden bg-deep text-white">
         <CreteOutline tone="dark" className="pointer-events-none absolute -right-16 top-32 -z-10 w-[50rem] opacity-50 max-lg:hidden" />
-        <div className="mx-auto max-w-7xl px-4 pb-40 pt-10 sm:px-6 sm:pt-14 lg:grid lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-8 lg:pb-48 lg:pt-16">
+        <div className="mx-auto max-w-7xl px-4 pb-24 pt-5 sm:px-6 sm:pb-40 sm:pt-14 lg:grid lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-8 lg:pb-48 lg:pt-16">
           <div>
             <p className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3.5 py-1.5 text-xs font-bold uppercase tracking-[0.14em] text-gold-200 ring-1 ring-white/15 backdrop-blur">
               <span className="size-1.5 rounded-full bg-gold-400" aria-hidden="true" />
               {t.home.heroEyebrow}
             </p>
-            <h1 className="mt-6 max-w-2xl text-balance text-[2.6rem] font-extrabold leading-[1.03] tracking-tight sm:text-6xl lg:text-[4.25rem]">
+            <h1 className="mt-3 max-w-2xl text-balance text-[2.15rem] font-extrabold leading-[1.03] tracking-tight sm:mt-6 sm:text-6xl lg:text-[4.25rem]">
               {t.home.heroTitle}
             </h1>
-            <p className="mt-5 max-w-xl text-pretty text-lg leading-relaxed text-white/70">{t.home.heroSubtitle}</p>
-            <p className="mt-8 inline-flex items-center gap-2 rounded-full bg-gold-400/15 px-4 py-2 text-sm font-bold text-gold-200 ring-1 ring-gold-400/30">
+            <p className="mt-5 max-w-xl text-pretty text-lg leading-relaxed text-white/70 max-sm:hidden">{t.home.heroSubtitle}</p>
+            <p className="mt-4 inline-flex items-center gap-2 rounded-full bg-gold-400/15 px-4 py-2 text-sm font-bold text-gold-200 ring-1 ring-gold-400/30 sm:mt-8">
               <TagIcon className="text-gold-300" /> {fill(t.home.fromPrice, { price: COMPANY.priceFrom })}
             </p>
           </div>
@@ -80,11 +80,13 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
       </section>
 
       {/* Search */}
-      <section aria-label={t.search.title} className="relative z-20 mx-auto -mt-32 max-w-7xl px-3 sm:px-6 lg:-mt-36">
+      <section aria-label={t.search.title} className="relative z-20 mx-auto -mt-20 max-w-7xl px-3 sm:-mt-32 sm:px-6 lg:-mt-36">
         <div id="search" className="scroll-mt-28 rounded-[1.75rem] bg-white p-3 shadow-float ring-1 ring-black/5 sm:p-4">
           <h2 className="px-2 pb-3 pt-1 text-base font-extrabold text-ink sm:text-lg">{t.search.title}</h2>
           <SearchForm locale={locale} t={{ search: t.search, common: t.common }} />
         </div>
+        {/* On phones the subtitle sits under the form, so the form fits in the first screen */}
+        <p className="mt-5 px-2 text-pretty leading-relaxed text-ink/65 sm:hidden">{t.home.heroSubtitle}</p>
         <ul className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 px-2 sm:gap-6 lg:grid-cols-4">
           {t.home.trust.map((item, index) => {
             const Icon = TRUST_ICONS[index % TRUST_ICONS.length];
