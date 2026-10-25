@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sea-50: #effaf9;
+  --color-sea-100: #d6f2ef;
+  --color-sea-200: #ade4df;
+  --color-sea-300: #7ccfca;
+  --color-sea-400: #45b2ae;
+  --color-sea-500: #239693;
+  --color-sea-600: #157877;
+  --color-sea-700: #135f60;
+  --color-sea-800: #124c4e;
+  --color-sea-900: #0f3e41;
+  --color-sea-950: #052427;
+
+  --color-sand-50: #fcfaf6;
+  --color-sand-100: #f7f2e9;
+  --color-sand-200: #eee5d3;
+  --color-sand-300: #e1d2b5;
+  --color-sand-400: #cdb68d;
+
+  --color-gold-50: #fdf8ea;
+  --color-gold-100: #faefcd;
+  --color-gold-200: #f4dd98;
+  --color-gold-300: #edc865;
+  --color-gold-400: #e3b752;
+  --color-gold-500: #cf9b2f;
+  --color-gold-600: #b07d22;
+  --color-gold-700: #8d611d;
+  --color-gold-800: #744e1e;
+
+  --color-coral-50: #fdf1ec;
+  --color-coral-500: #e2603b;
+  --color-coral-600: #c84b28;
+
+  --color-ink: #10242a;
+  --color-whatsapp: #25d366;
+
+  --font-sans: var(--font-commissioner), ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-soft: 0 1px 2px rgb(16 36 42 / 0.05), 0 4px 16px -6px rgb(16 36 42 / 0.1);
+  --shadow-lift: 0 2px 4px rgb(16 36 42 / 0.04), 0 18px 40px -16px rgb(16 36 42 / 0.25);
+  --shadow-float: 0 30px 70px -20px rgb(5 36 39 / 0.45);
+
+  --animate-pop: pop 0.18s ease-out;
+  --animate-sheet: sheet 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+  --animate-ping-slow: ping-slow 2.4s cubic-bezier(0, 0, 0.2, 1) infinite;
+
+  @keyframes pop {
+    from {
+      opacity: 0;
+      transform: translateY(-4px) scale(0.98);
+    }
+  }
+  @keyframes sheet {
+    from {
+      transform: translateY(100%);
+    }
+  }
+  @keyframes ping-slow {
+    75%,
+    100% {
+      transform: scale(2.6);
+      opacity: 0;
+    }
+  }
+}
+
+/* In the base layer so utilities such as outline-none or bg-* still win. Keep :root inside it too:
+   a standalone `:root { color-scheme }` before this block made the dev build emit everything unlayered. */
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background: var(--color-sand-50);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--color-gold-200);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-sea-500);
+    outline-offset: 2px;
+  }
+
+  details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.bg-deep {
+  background:
+    radial-gradient(900px 420px at 88% 0%, rgb(227 183 82 / 0.16), transparent 65%),
+    radial-gradient(700px 500px at 0% 100%, rgb(35 150 147 / 0.28), transparent 60%),
+    linear-gradient(165deg, var(--color-sea-900) 0%, var(--color-sea-950) 70%);
+}
+
+.text-gold-shine {
+  background: linear-gradient(100deg, #f4dd98 0%, #e3b752 40%, #cf9b2f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.prose-goldy {
+  color: rgb(41 60 66);
+}
+.prose-goldy h2 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: 750;
+  letter-spacing: -0.01em;
+  margin-top: 2.75rem;
+  margin-bottom: 0.85rem;
+  color: var(--color-ink);
+  scroll-margin-top: 6rem;
+}
+.prose-goldy h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-ink);
+}
+.prose-goldy p {
+  margin-bottom: 1.1rem;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+.prose-goldy ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+.prose-goldy li {
+  margin-bottom: 0.4rem;
+  line-height: 1.7;
+}
+.prose-goldy a {
+  color: var(--color-sea-700);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--color-gold-400);
+  text-underline-offset: 3px;
+}
+.prose-goldy > :first-child,
+.prose-goldy > section:first-child > h2:first-child {
+  margin-top: 0;
+}

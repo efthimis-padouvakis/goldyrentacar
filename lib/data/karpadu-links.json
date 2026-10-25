@@ -1,0 +1,155 @@
+{
+  "home": {
+    "en": "",
+    "el": "",
+    "de": "",
+    "fr": "",
+    "it": "",
+    "nl": "",
+    "pl": ""
+  },
+  "greece": {
+    "en": "/car-rental/greece",
+    "el": "/enoikiasi-aftokinitou/ellada",
+    "de": "/mietwagen/griechenland",
+    "fr": "/location-de-voiture/grece",
+    "it": "/noleggio-auto/grecia",
+    "nl": "/auto-huren/griekenland",
+    "pl": "/wynajem-samochodow/grecja"
+  },
+  "crete": {
+    "en": "/car-rental/greece/crete",
+    "el": "/enoikiasi-aftokinitou/ellada/kriti",
+    "de": "/mietwagen/griechenland/kreta",
+    "fr": "/location-de-voiture/grece/crete",
+    "it": "/noleggio-auto/grecia/creta",
+    "nl": "/auto-huren/griekenland/kreta",
+    "pl": "/wynajem-samochodow/grecja/kreta"
+  },
+  "heraklion": {
+    "en": "/car-rental/greece/heraklion",
+    "el": "/enoikiasi-aftokinitou/ellada/irakleio",
+    "de": "/mietwagen/griechenland/heraklion",
+    "fr": "/location-de-voiture/grece/heraklion",
+    "it": "/noleggio-auto/grecia/heraklion",
+    "nl": "/auto-huren/griekenland/heraklion",
+    "pl": "/wynajem-samochodow/grecja/heraklion"
+  },
+  "chania": {
+    "en": "/car-rental/greece/chania",
+    "el": "/enoikiasi-aftokinitou/ellada/chania",
+    "de": "/mietwagen/griechenland/chania",
+    "fr": "/location-de-voiture/grece/chania",
+    "it": "/noleggio-auto/grecia/chania",
+    "nl": "/auto-huren/griekenland/chania",
+    "pl": "/wynajem-samochodow/grecja/chania"
+  },
+  "rethymno": {
+    "en": "/car-rental/greece/rethymno",
+    "el": "/enoikiasi-aftokinitou/ellada/rethymno",
+    "de": "/mietwagen/griechenland/rethymno",
+    "fr": "/location-de-voiture/grece/rethymno",
+    "it": "/noleggio-auto/grecia/rethymno",
+    "nl": "/auto-huren/griekenland/rethymno",
+    "pl": "/wynajem-samochodow/grecja/rethymno"
+  },
+  "hersonissos": {
+    "en": "/car-rental/greece/hersonissos",
+    "el": "/enoikiasi-aftokinitou/ellada/chersonissos",
+    "de": "/mietwagen/griechenland/hersonissos",
+    "fr": "/location-de-voiture/grece/hersonissos",
+    "it": "/noleggio-auto/grecia/hersonissos",
+    "nl": "/auto-huren/griekenland/hersonissos",
+    "pl": "/wynajem-samochodow/grecja/hersonissos"
+  },
+  "agiosNikolaos": {
+    "en": "/car-rental/greece/agios-nikolaos",
+    "el": "/enoikiasi-aftokinitou/ellada/agios-nikolaos",
+    "de": "/mietwagen/griechenland/agios-nikolaos",
+    "fr": "/location-de-voiture/grece/agios-nikolaos",
+    "it": "/noleggio-auto/grecia/agios-nikolaos",
+    "nl": "/auto-huren/griekenland/agios-nikolaos",
+    "pl": "/wynajem-samochodow/grecja/agios-nikolaos"
+  },
+  "athens": {
+    "en": "/car-rental/greece/athens",
+    "el": "/enoikiasi-aftokinitou/ellada/athina",
+    "de": "/mietwagen/griechenland/athen",
+    "fr": "/location-de-voiture/grece/athenes",
+    "it": "/noleggio-auto/grecia/atene",
+    "nl": "/auto-huren/griekenland/athene",
+    "pl": "/wynajem-samochodow/grecja/ateny"
+  },
+  "santorini": {
+    "en": "/car-rental/greece/santorini",
+    "el": "/enoikiasi-aftokinitou/ellada/santorini",
+    "de": "/mietwagen/griechenland/santorin",
+    "fr": "/location-de-voiture/grece/santorin",
+    "it": "/noleggio-auto/grecia/santorini",
+    "nl": "/auto-huren/griekenland/santorini",
+    "pl": "/wynajem-samochodow/grecja/santorini"
+  },
+  "mykonos": {
+    "en": "/car-rental/greece/mykonos",
+    "el": "/enoikiasi-aftokinitou/ellada/mykonos",
+    "de": "/mietwagen/griechenland/mykonos",
+    "fr": "/location-de-voiture/grece/mykonos",
+    "it": "/noleggio-auto/grecia/mykonos",
+    "nl": "/auto-huren/griekenland/mykonos",
+    "pl": "/wynajem-samochodow/grecja/mykonos"
+  },
+  "rhodes": {
+    "en": "/car-rental/greece/rhodes",
+    "el": "/enoikiasi-aftokinitou/ellada/rodos",
+    "de": "/mietwagen/griechenland/rhodos",
+    "fr": "/location-de-voiture/grece/rhodes",
+    "it": "/noleggio-auto/grecia/rodi",
+    "nl": "/auto-huren/griekenland/rhodos",
+    "pl": "/wynajem-samochodow/grecja/rodos"
+  },
+  "corfu": {
+    "en": "/car-rental/greece/corfu",
+    "el": "/enoikiasi-aftokinitou/ellada/kerkyra",
+    "de": "/mietwagen/griechenland/korfu",
+    "fr": "/location-de-voiture/grece/corfou",
+    "it": "/noleggio-auto/grecia/corfu",
+    "nl": "/auto-huren/griekenland/corfu",
+    "pl": "/wynajem-samochodow/grecja/korfu"
+  },
+  "thessaloniki": {
+    "en": "/car-rental/greece/thessaloniki",
+    "el": "/enoikiasi-aftokinitou/ellada/thessaloniki",
+    "de": "/mietwagen/griechenland/thessaloniki",
+    "fr": "/location-de-voiture/grece/thessalonique",
+    "it": "/noleggio-auto/grecia/salonicco",
+    "nl": "/auto-huren/griekenland/thessaloniki",
+    "pl": "/wynajem-samochodow/grecja/thessaloniki"
+  },
+  "myReservation": {
+    "en": "/my-reservation",
+    "el": "/i-kratisi-mou",
+    "de": "/meine-buchung",
+    "fr": "/ma-reservation",
+    "it": "/la-mia-prenotazione",
+    "nl": "/mijn-reservering",
+    "pl": "/moja-rezerwacja"
+  },
+  "insurances": {
+    "en": "/information/insurances",
+    "el": "/plirofories/asfaleies",
+    "de": "/informationen/versicherungen",
+    "fr": "/informations/assurances",
+    "it": "/informazioni/assicurazioni",
+    "nl": "/informatie/verzekeringen",
+    "pl": "/informacje/ubezpieczenia"
+  },
+  "faqs": {
+    "en": "/information/faqs",
+    "el": "/plirofories/sychnes-erotiseis",
+    "de": "/informationen/haeufige-fragen",
+    "fr": "/informations/faq",
+    "it": "/informazioni/domande-frequenti",
+    "nl": "/informatie/veelgestelde-vragen",
+    "pl": "/informacje/najczestsze-pytania"
+  }
+}

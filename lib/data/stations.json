@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 3,
+    "type": "Airport",
+    "airportCode": "CHQ",
+    "prefecture": "Chania",
+    "lat": 35.5398,
+    "lng": 24.1404,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Chania",
+      "el": "Χανιά",
+      "de": "Chania",
+      "fr": "La Canée",
+      "it": "Chania",
+      "nl": "Chania",
+      "pl": "Chania"
+    }
+  },
+  {
+    "id": 1,
+    "type": "Airport",
+    "airportCode": "HER",
+    "prefecture": "Heraklion",
+    "lat": 35.339666,
+    "lng": 25.176007,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Heraklion",
+      "el": "Ηράκλειο",
+      "de": "Heraklion",
+      "fr": "Heraklion",
+      "it": "Heraklion",
+      "nl": "Heraklion",
+      "pl": "Heraklion"
+    }
+  },
+  {
+    "id": 65,
+    "type": "Airport",
+    "airportCode": "JSH",
+    "prefecture": "Sitia",
+    "lat": 35.217,
+    "lng": 26.0973,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Sitia",
+      "el": "Σητεία",
+      "de": "Sitia",
+      "fr": "Sitia",
+      "it": "Sitia",
+      "nl": "Sitia",
+      "pl": "Sitia"
+    }
+  },
+  {
+    "id": 6,
+    "type": "Port",
+    "airportCode": null,
+    "prefecture": "Lasithi",
+    "lat": 35.19132,
+    "lng": 25.721922,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Agios Nikolaos",
+      "el": "Άγιος Νικόλαος",
+      "de": "Agios Nikolaos",
+      "fr": "Agios Nikolaos",
+      "it": "Agios Nikolaos",
+      "nl": "Agios Nikolaos",
+      "pl": "Agios Nikolaos"
+    }
+  },
+  {
+    "id": 4,
+    "type": "Port",
+    "airportCode": null,
+    "prefecture": "Chania",
+    "lat": 35.519101,
+    "lng": 24.014748,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Chania",
+      "el": "Χανιά",
+      "de": "Chania",
+      "fr": "La Canée",
+      "it": "Chania",
+      "nl": "Chania",
+      "pl": "Chania"
+    }
+  },
+  {
+    "id": 2,
+    "type": "Port",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.341677,
+    "lng": 25.144359,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Heraklion",
+      "el": "Ηράκλειο",
+      "de": "Heraklion",
+      "fr": "Heraklion",
+      "it": "Heraklion",
+      "nl": "Heraklion",
+      "pl": "Heraklion"
+    }
+  },
+  {
+    "id": 7,
+    "type": "Port",
+    "airportCode": null,
+    "prefecture": "Lasithi",
+    "lat": 35.007293,
+    "lng": 25.739442,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Ierapetra",
+      "el": "Ιεράπετρα",
+      "de": "Ierapetra",
+      "fr": "Ierapetra",
+      "it": "Ierapetra",
+      "nl": "Ierapetra",
+      "pl": "Ierapetra"
+    }
+  },
+  {
+    "id": 5,
+    "type": "Port",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.367835,
+    "lng": 24.483133,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Rethymno",
+      "el": "Ρέθυμνο",
+      "de": "Rethymno",
+      "fr": "Rethymno",
+      "it": "Rethymno",
+      "nl": "Rethymnon",
+      "pl": "Rethymno"
+    }
+  },
+  {
+    "id": 85,
+    "type": "Port",
+    "airportCode": null,
+    "prefecture": "Sitia",
+    "lat": 35.212319,
+    "lng": 26.111214,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Sitia",
+      "el": "Σητεία",
+      "de": "Sitia",
+      "fr": "Sitia",
+      "it": "Sitia",
+      "nl": "Sitia",
+      "pl": "Sitia"
+    }
+  },
+  {
+    "id": 54,
+    "type": "Port",
+    "airportCode": null,
+    "prefecture": "Chania",
+    "lat": 35.489044,
+    "lng": 24.075517,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Souda",
+      "el": "Σούδα",
+      "de": "Souda",
+      "fr": "Souda",
+      "it": "Souda",
+      "nl": "Souda",
+      "pl": "Souda"
+    }
+  },
+  {
+    "id": 8,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.357183,
+    "lng": 24.559023,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Adele",
+      "el": "Άδελε",
+      "de": "Adele",
+      "fr": "Adele",
+      "it": "Adele",
+      "nl": "Adele",
+      "pl": "Adele"
+    }
+  },
+  {
+    "id": 9,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.371687,
+    "lng": 24.54169,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Adelianos Kampos",
+      "el": "Αδελιανός Κάμπος",
+      "de": "Adelianos Kampos",
+      "fr": "Adelianos Kampos",
+      "it": "Adelianos Kampos",
+      "nl": "Adelianos Kampos",
+      "pl": "Adelianos Kampos"
+    }
+  },
+  {
+    "id": 12,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Chania",
+    "lat": 35.520006,
+    "lng": 23.929653,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Agia Marina Kissamou",
+      "el": "Αγία Μαρίνα Κισσάμου",
+      "de": "Agia Marina Kissamou",
+      "fr": "Agia Marina Kissamou",
+      "it": "Agia Marina Kissamou",
+      "nl": "Agia Marina Kissamou",
+      "pl": "Agia Marina Kissamou"
+    }
+  },
+  {
+    "id": 11,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.404207,
+    "lng": 25.019027,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Agia Pelagia",
+      "el": "Αγία Πελαγία",
+      "de": "Agia Pelagia",
+      "fr": "Agia Pelagia",
+      "it": "Agia Pelagia",
+      "nl": "Agia Pelagia",
+      "pl": "Agia Pelagia"
+    }
+  },
+  {
+    "id": 10,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.335727,
+    "lng": 25.07016,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Ammoudara",
+      "el": "Αμμουδάρα",
+      "de": "Ammoudara",
+      "fr": "Ammoudara",
+      "it": "Ammoudara",
+      "nl": "Ammoudara",
+      "pl": "Ammoudara"
+    }
+  },
+  {
+    "id": 14,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Lasithi",
+    "lat": 35.162889,
+    "lng": 25.712617,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Ammoudara",
+      "el": "Αμμουδάρα",
+      "de": "Ammoudara",
+      "fr": "Ammoudara",
+      "it": "Ammoudara",
+      "nl": "Ammoudara",
+      "pl": "Ammoudara"
+    }
+  },
+  {
+    "id": 15,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.33401,
+    "lng": 25.350216,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Analipsi",
+      "el": "Ανάληψη",
+      "de": "Analipsi",
+      "fr": "Analipsi",
+      "it": "Analipsi",
+      "nl": "Analipsi",
+      "pl": "Analipsi"
+    }
+  },
+  {
+    "id": 16,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.333185,
+    "lng": 25.380232,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Anissaras",
+      "el": "Ανισσαράς",
+      "de": "Anissaras",
+      "fr": "Anissaras",
+      "it": "Anissaras",
+      "nl": "Anissaras",
+      "pl": "Anissaras"
+    }
+  },
+  {
+    "id": 17,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.218386,
+    "lng": 24.084744,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Anopoli",
+      "el": "Ανώπολη",
+      "de": "Anopoli",
+      "fr": "Anopoli",
+      "it": "Anopoli",
+      "nl": "Anopoli",
+      "pl": "Anopoli"
+    }
+  },
+  {
+    "id": 18,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.309826,
+    "lng": 24.628526,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Arkadi",
+      "el": "Αρκάδι",
+      "de": "Arkadi",
+      "fr": "Arkadi",
+      "it": "Arkadi",
+      "nl": "Arkadi",
+      "pl": "Arkadi"
+    }
+  },
+  {
+    "id": 19,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.316403,
+    "lng": 25.034483,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Arolithos Gazi",
+      "el": "Αρόλιθος Γαζίου",
+      "de": "Arolithos Gazi",
+      "fr": "Arolithos Gazi",
+      "it": "Arolithos Gazi",
+      "nl": "Arolithos Gazi",
+      "pl": "Arolithos Gazi"
+    }
+  },
+  {
+    "id": 20,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.405698,
+    "lng": 24.783344,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Bali",
+      "el": "Μπαλί",
+      "de": "Bali",
+      "fr": "Bali",
+      "it": "Bali",
+      "nl": "Bali",
+      "pl": "Bali"
+    }
+  },
+  {
+    "id": 61,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Chania",
+    "lat": 35.512385,
+    "lng": 24.01941,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Chania",
+      "el": "Χανιά",
+      "de": "Chania",
+      "fr": "La Canée",
+      "it": "Chania",
+      "nl": "Chania",
+      "pl": "Chania"
+    }
+  },
+  {
+    "id": 22,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Lasithi",
+    "lat": 35.019329,
+    "lng": 25.857343,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Ferma",
+      "el": "Φέρμα",
+      "de": "Ferma",
+      "fr": "Ferma",
+      "it": "Ferma",
+      "nl": "Ferma",
+      "pl": "Ferma"
+    }
+  },
+  {
+    "id": 23,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.381248,
+    "lng": 24.958743,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Fodele",
+      "el": "Φόδελε",
+      "de": "Fodele",
+      "fr": "Fodele",
+      "it": "Fodele",
+      "nl": "Fodele",
+      "pl": "Fodele"
+    }
+  },
+  {
+    "id": 24,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.360819,
+    "lng": 24.25833,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Georgioupoli",
+      "el": "Γεωργιούπολη",
+      "de": "Georgioupoli",
+      "fr": "Georgioupoli",
+      "it": "Georgioupoli",
+      "nl": "Georgioupoli",
+      "pl": "Georgioupoli"
+    }
+  },
+  {
+    "id": 25,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.352576,
+    "lng": 24.400341,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Gerani",
+      "el": "Γεράνι",
+      "de": "Gerani",
+      "fr": "Gerani",
+      "it": "Gerani",
+      "nl": "Gerani",
+      "pl": "Gerani"
+    }
+  },
+  {
+    "id": 26,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.333018,
+    "lng": 25.282276,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Gournes",
+      "el": "Γούρνες",
+      "de": "Gournes",
+      "fr": "Gournes",
+      "it": "Gournes",
+      "nl": "Gournes",
+      "pl": "Gournes"
+    }
+  },
+  {
+    "id": 27,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.311681,
+    "lng": 25.312739,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Gouves",
+      "el": "Γούβες",
+      "de": "Gouves",
+      "fr": "Gouves",
+      "it": "Gouves",
+      "nl": "Gouves",
+      "pl": "Gouves"
+    }
+  },
+  {
+    "id": 59,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.339369,
+    "lng": 25.133161,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Heraklion",
+      "el": "Ηράκλειο",
+      "de": "Heraklion",
+      "fr": "Heraklion",
+      "it": "Heraklion",
+      "nl": "Heraklion",
+      "pl": "Heraklion"
+    }
+  },
+  {
+    "id": 29,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.322775,
+    "lng": 25.391825,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Hersonissos",
+      "el": "Χερσόνησος",
+      "de": "Hersonissos",
+      "fr": "Hersonissos",
+      "it": "Hersonissos",
+      "nl": "Hersonissos",
+      "pl": "Hersonissos"
+    }
+  },
+  {
+    "id": 28,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Lasithi",
+    "lat": 35.125195,
+    "lng": 25.742588,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Istro",
+      "el": "Ίστρο",
+      "de": "Istro",
+      "fr": "Istro",
+      "it": "Istro",
+      "nl": "Istro",
+      "pl": "Istro"
+    }
+  },
+  {
+    "id": 31,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Chania",
+    "lat": 35.530561,
+    "lng": 23.807979,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Kamisiana",
+      "el": "Καμισιανά",
+      "de": "Kamisiana",
+      "fr": "Kamisiana",
+      "it": "Kamisiana",
+      "nl": "Kamisiana",
+      "pl": "Kamisiana"
+    }
+  },
+  {
+    "id": 13,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.328914,
+    "lng": 25.203808,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Karteros",
+      "el": "Καρτερός",
+      "de": "Karteros",
+      "fr": "Karteros",
+      "it": "Karteros",
+      "nl": "Karteros",
+      "pl": "Karteros"
+    }
+  },
+  {
+    "id": 33,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.227176,
+    "lng": 25.356615,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Kato Karouzana",
+      "el": "Κάτω Καρουζανά",
+      "de": "Kato Karouzana",
+      "fr": "Kato Karouzana",
+      "it": "Kato Karouzana",
+      "nl": "Kato Karouzana",
+      "pl": "Kato Karouzana"
+    }
+  },
+  {
+    "id": 32,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Chania",
+    "lat": 35.49456,
+    "lng": 23.653493,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Kissamos",
+      "el": "Κίσσαμος",
+      "de": "Kissamos",
+      "fr": "Kissamos",
+      "it": "Kissamos",
+      "nl": "Kissamos",
+      "pl": "Kissamos"
+    }
+  },
+  {
+    "id": 35,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.33017,
+    "lng": 25.256168,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Kokkini Hani",
+      "el": "Κοκκίνη Χάνι",
+      "de": "Kokkini Hani",
+      "fr": "Kokkini Hani",
+      "it": "Kokkini Hani",
+      "nl": "Kokkini Hani",
+      "pl": "Kokkini Hani"
+    }
+  },
+  {
+    "id": 36,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.306475,
+    "lng": 25.391423,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Koutouloufari",
+      "el": "Κουτουλουφάρι",
+      "de": "Koutouloufari",
+      "fr": "Koutouloufari",
+      "it": "Koutouloufari",
+      "nl": "Koutouloufari",
+      "pl": "Koutouloufari"
+    }
+  },
+  {
+    "id": 37,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.398437,
+    "lng": 25.028934,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Ligaria",
+      "el": "Λυγαριά",
+      "de": "Ligaria",
+      "fr": "Ligaria",
+      "it": "Ligaria",
+      "nl": "Ligaria",
+      "pl": "Ligaria"
+    }
+  },
+  {
+    "id": 39,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Chania",
+    "lat": 35.522422,
+    "lng": 23.848691,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Maleme",
+      "el": "Μάλεμε",
+      "de": "Maleme",
+      "fr": "Maleme",
+      "it": "Maleme",
+      "nl": "Maleme",
+      "pl": "Maleme"
+    }
+  },
+  {
+    "id": 40,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.283295,
+    "lng": 25.460913,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Malia",
+      "el": "Μάλια",
+      "de": "Malia",
+      "fr": "Malia",
+      "it": "Malia",
+      "nl": "Malia",
+      "pl": "Malia"
+    }
+  },
+  {
+    "id": 64,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 34.993313,
+    "lng": 24.750979,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Matala",
+      "el": "Μάταλα",
+      "de": "Matala",
+      "fr": "Matala",
+      "it": "Matala",
+      "nl": "Matala",
+      "pl": "Matala"
+    }
+  },
+  {
+    "id": 41,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.308854,
+    "lng": 25.565323,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Milatos",
+      "el": "Μίλατος",
+      "de": "Milatos",
+      "fr": "Milatos",
+      "it": "Milatos",
+      "nl": "Milatos",
+      "pl": "Milatos"
+    }
+  },
+  {
+    "id": 42,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.264266,
+    "lng": 25.422309,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Mochos",
+      "el": "Μοχός",
+      "de": "Mochos",
+      "fr": "Mochos",
+      "it": "Mochos",
+      "nl": "Mochos",
+      "pl": "Mochos"
+    }
+  },
+  {
+    "id": 47,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.188988,
+    "lng": 24.397493,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Myrthianos Plakias",
+      "el": "Μυρθιανός Πλακιάς",
+      "de": "Myrthianos Plakias",
+      "fr": "Myrthianos Plakias",
+      "it": "Myrthianos Plakias",
+      "nl": "Myrthianos Plakias",
+      "pl": "Myrthianos Plakias"
+    }
+  },
+  {
+    "id": 43,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Chania",
+    "lat": 35.230928,
+    "lng": 23.682031,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Paleochora",
+      "el": "Παλαιόχωρα",
+      "de": "Paleochora",
+      "fr": "Paleochora",
+      "it": "Paleochora",
+      "nl": "Paleochora",
+      "pl": "Paleochora"
+    }
+  },
+  {
+    "id": 44,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.419225,
+    "lng": 24.690681,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Panormos",
+      "el": "Πάνορμος",
+      "de": "Panormos",
+      "fr": "Panormos",
+      "it": "Panormos",
+      "nl": "Panormos",
+      "pl": "Panormos"
+    }
+  },
+  {
+    "id": 30,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.028702,
+    "lng": 24.7594,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Paralia Kalamaki",
+      "el": "Παραλία Καλαμάκι",
+      "de": "Paralia Kalamaki",
+      "fr": "Paralia Kalamaki",
+      "it": "Paralia Kalamaki",
+      "nl": "Paralia Kalamaki",
+      "pl": "Paralia Kalamaki"
+    }
+  },
+  {
+    "id": 34,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.351034,
+    "lng": 24.298696,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Paralia Kourna",
+      "el": "Παραλία Κουρνά",
+      "de": "Paralia Kourna",
+      "fr": "Paralia Kourna",
+      "it": "Paralia Kourna",
+      "nl": "Paralia Kourna",
+      "pl": "Paralia Kourna"
+    }
+  },
+  {
+    "id": 38,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Lasithi",
+    "lat": 35.035765,
+    "lng": 25.970581,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Paralia Makrigialos",
+      "el": "Παραλία Μακρυγιαλού",
+      "de": "Paralia Makrigialos",
+      "fr": "Paralia Makrigialos",
+      "it": "Paralia Makrigialos",
+      "nl": "Paralia Makrigialos",
+      "pl": "Paralia Makrigialos"
+    }
+  },
+  {
+    "id": 45,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.308405,
+    "lng": 25.384162,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Piskopiano",
+      "el": "Πισκοπιανό",
+      "de": "Piskopiano",
+      "fr": "Piskopiano",
+      "it": "Piskopiano",
+      "nl": "Piskopiano",
+      "pl": "Piskopiano"
+    }
+  },
+  {
+    "id": 46,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Lasithi",
+    "lat": 35.302067,
+    "lng": 25.726367,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Plaka",
+      "el": "Πλάκα",
+      "de": "Plaka",
+      "fr": "Plaka",
+      "it": "Plaka",
+      "nl": "Plaka",
+      "pl": "Plaka"
+    }
+  },
+  {
+    "id": 48,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.367015,
+    "lng": 24.530314,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Platanes",
+      "el": "Πλατάνες",
+      "de": "Platanes",
+      "fr": "Platanes",
+      "it": "Platanes",
+      "nl": "Platanes",
+      "pl": "Platanes"
+    }
+  },
+  {
+    "id": 53,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Chania",
+    "lat": 35.517098,
+    "lng": 23.906386,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Platanias",
+      "el": "Πλατανιάς",
+      "de": "Platanias",
+      "fr": "Platanias",
+      "it": "Platanias",
+      "nl": "Platanias",
+      "pl": "Platanias"
+    }
+  },
+  {
+    "id": 324,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.366511,
+    "lng": 24.491191,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Rethymno",
+      "el": "Ρέθυμνο",
+      "de": "Rethymno",
+      "fr": "Rethymno",
+      "it": "Rethymno",
+      "nl": "Rethymnon",
+      "pl": "Rethymno"
+    }
+  },
+  {
+    "id": 21,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Lasithi",
+    "lat": 35.263501,
+    "lng": 25.721863,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Schisma Elountas",
+      "el": "Σχίσμα Ελούντας",
+      "de": "Schisma Elountas",
+      "fr": "Schisma Elountas",
+      "it": "Schisma Elountas",
+      "nl": "Schisma Elountas",
+      "pl": "Schisma Elountas"
+    }
+  },
+  {
+    "id": 50,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.380837,
+    "lng": 24.581738,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Sfakaki",
+      "el": "Σφακάκι",
+      "de": "Sfakaki",
+      "fr": "Sfakaki",
+      "it": "Sfakaki",
+      "nl": "Sfakaki",
+      "pl": "Sfakaki"
+    }
+  },
+  {
+    "id": 51,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Lasithi",
+    "lat": 35.306891,
+    "lng": 25.519166,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Sisi",
+      "el": "Σίσι",
+      "de": "Sisi",
+      "fr": "Sisi",
+      "it": "Sisi",
+      "nl": "Sisi",
+      "pl": "Sisi"
+    }
+  },
+  {
+    "id": 49,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Rethymno",
+    "lat": 35.391502,
+    "lng": 24.611756,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Skaleta",
+      "el": "Σκαλέτα",
+      "de": "Skaleta",
+      "fr": "Skaleta",
+      "it": "Skaleta",
+      "nl": "Skaleta",
+      "pl": "Skaleta"
+    }
+  },
+  {
+    "id": 52,
+    "type": "Downtown",
+    "airportCode": null,
+    "prefecture": "Heraklion",
+    "lat": 35.293982,
+    "lng": 25.427902,
+    "timeZone": "Europe/Athens",
+    "names": {
+      "en": "Stalida",
+      "el": "Σταλίδα",
+      "de": "Stalida",
+      "fr": "Stalida",
+      "it": "Stalida",
+      "nl": "Stalida",
+      "pl": "Stalida"
+    }
+  }
+]
