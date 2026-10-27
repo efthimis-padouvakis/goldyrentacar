@@ -20,6 +20,7 @@ export async function GET() {
 export async function POST(request: Request) {
   const event = (await request.json().catch(() => null)) as { EventTypeId?: number; EventData?: { TransactionId?: string } } | null;
   const transactionId = String(event?.EventData?.TransactionId ?? "");
+  console.info("[viva-webhook] received", { eventTypeId: event?.EventTypeId, transactionId });
   if (event?.EventTypeId === TRANSACTION_PAYMENT_CREATED && UUID.test(transactionId)) {
     // Answer at once: a slow reply makes Viva retry, and a retry would book the car twice.
     after(() => confirmBooking(transactionId));
@@ -34,11 +35,18 @@ async function confirmBooking(transactionId: string) {
     console.error("[viva-webhook] cannot read transaction", transactionId, error);
     return null;
   });
-  if (!transaction || transaction.statusId !== "F") return;
+  if (!transaction) return;
+  if (transaction.statusId !== "F") {
+    console.info("[viva-webhook] not finished, skipped", { transactionId, statusId: transaction.statusId });
+    return;
+  }
 
   // Payments from other sources on the same Viva account (POS, payment links) are not ours.
   const booking = decodeBooking(transaction.merchantTrns);
-  if (!booking) return;
+  if (!booking) {
+    console.info("[viva-webhook] not a website booking, skipped", { transactionId, orderCode: transaction.orderCode });
+    return;
+  }
 
   const paid = toCents(transaction.amount);
   const context = { transactionId, orderCode: transaction.orderCode, email: booking.driver.email, paid };
@@ -59,8 +67,8 @@ async function confirmBooking(transactionId: string) {
     if ("error" in quote) return refund(quote.error);
     if (toCents(quote.price) !== paid) return refund("price changed since payment", { now: quote.price });
 
-    await submitReservation(booking, quote, `goldy|${transaction.orderCode}|${transactionId}`);
-    console.info("[viva-webhook] reserved", context);
+    const reservation = await submitReservation(booking, quote, `goldy|${transaction.orderCode}|${transactionId}`);
+    console.info("[viva-webhook] reserved", context, reservation);
   } catch (error) {
     if (error instanceof BackendError && error.status === 409) return refund("car unavailable");
     return refund("reservation failed", error);

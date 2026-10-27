@@ -33,7 +33,7 @@ export default async function GuidePage({ params }: PageProps<"/[lang]/crete-dri
     dateModified: CONTENT_UPDATED,
     author: { "@type": "Organization", name: COMPANY.name, url: SITE_URL },
     publisher: { "@id": `${SITE_URL}/#business` },
-    image: `${SITE_URL}/img/fleet/citroen-c3-aircross-2026.avif`,
+    image: `${SITE_URL}/img/brand/cars/citroen-c3-aircross-2026.avif`,
   };
 
   return (

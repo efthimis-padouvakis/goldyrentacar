@@ -19,7 +19,7 @@ npm run build && npm start
 | `KARPADU_BACKEND` | Backend base URL |
 | `SUB_KEY` | Azure APIM subscription key |
 | `KARPADU_CHANNEL` | `channel` sent to the backend (default `karpadu`) |
-| `GOLDY_COMPANY_IDS` | Comma-separated `companyId` list to keep. Empty shows every supplier |
+| `GOLDY_COMPANY_IDS` | Comma-separated `companyId` list to keep in availability and stations. Empty shows every supplier. Re-run `npm run sync:stations` after changing it |
 | `RESERVATIONS_ENABLED` | `true` takes bookings online: Viva Wallet payment, then `MakeReservation`. Anything else hands the booking off to WhatsApp / email |
 | `VIVA_ENV` | `demo` (sandbox, default) or `live` |
 | `VIVA_CLIENT_ID`, `VIVA_CLIENT_SECRET` | Viva Smart Checkout credentials (OAuth) |

@@ -68,7 +68,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           <div className="relative mt-6 hidden aspect-[16/10] lg:block">
             <div className="absolute inset-x-10 bottom-6 h-10 rounded-[50%] bg-black/50 blur-2xl" aria-hidden="true" />
             <Image
-              src="/img/fleet/citroen-c3-aircross-2026.avif"
+              src="/img/brand/cars/citroen-c3-aircross-2026.avif"
               alt="Citroën C3 Aircross Hybrid, Goldy Rent a Car Crete"
               fill
               priority
@@ -207,7 +207,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
             </a>
           </div>
           <div className="relative mt-8 aspect-[16/10] md:mt-0">
-            <Image src="/img/fleet/peugeot-e-rifter-2023.webp" alt="Peugeot e-Rifter, airport transfer in Crete" fill sizes="(min-width: 1024px) 320px, 80vw" className="object-contain" />
+            <Image src="/img/brand/cars/peugeot-e-rifter-2023.avif" alt="Peugeot e-Rifter, airport transfer in Crete" fill sizes="(min-width: 1024px) 320px, 80vw" className="object-contain" />
           </div>
         </div>
         <Link

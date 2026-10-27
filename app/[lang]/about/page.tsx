@@ -46,7 +46,7 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/about">) 
           ))}
         </div>
         <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] bg-[radial-gradient(110%_90%_at_50%_100%,var(--color-sand-200),var(--color-sand-50)_75%)] ring-1 ring-sand-200">
-          <Image src="/img/fleet/jaguar-i-pace-2022.webp" alt="Jaguar I-Pace EV400, Goldy Rent a Car" fill priority sizes="(min-width: 1024px) 40vw, 100vw" className="object-contain p-8" />
+          <Image src="/img/brand/cars/jaguar-i-pace-ev400-2022.avif" alt="Jaguar I-Pace EV400, Goldy Rent a Car" fill priority sizes="(min-width: 1024px) 40vw, 100vw" className="object-contain p-8" />
         </div>
       </section>
 

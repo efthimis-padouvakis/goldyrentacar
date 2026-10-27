@@ -368,7 +368,7 @@ export const locationPages: LocationPage[] = [
   },
   {
     slug: "rethymno",
-    stationId: 324,
+    stationId: 5,
     karpadu: "rethymno",
     kind: "Downtown",
     copy: {

@@ -144,24 +144,6 @@
     }
   },
   {
-    "id": 85,
-    "type": "Port",
-    "airportCode": null,
-    "prefecture": "Sitia",
-    "lat": 35.212319,
-    "lng": 26.111214,
-    "timeZone": "Europe/Athens",
-    "names": {
-      "en": "Sitia",
-      "el": "Σητεία",
-      "de": "Sitia",
-      "fr": "Sitia",
-      "it": "Sitia",
-      "nl": "Sitia",
-      "pl": "Sitia"
-    }
-  },
-  {
     "id": 54,
     "type": "Port",
     "airportCode": null,
@@ -258,24 +240,6 @@
     "prefecture": "Heraklion",
     "lat": 35.335727,
     "lng": 25.07016,
-    "timeZone": "Europe/Athens",
-    "names": {
-      "en": "Ammoudara",
-      "el": "Αμμουδάρα",
-      "de": "Ammoudara",
-      "fr": "Ammoudara",
-      "it": "Ammoudara",
-      "nl": "Ammoudara",
-      "pl": "Ammoudara"
-    }
-  },
-  {
-    "id": 14,
-    "type": "Downtown",
-    "airportCode": null,
-    "prefecture": "Lasithi",
-    "lat": 35.162889,
-    "lng": 25.712617,
     "timeZone": "Europe/Athens",
     "names": {
       "en": "Ammoudara",
@@ -969,24 +933,6 @@
       "it": "Platanias",
       "nl": "Platanias",
       "pl": "Platanias"
-    }
-  },
-  {
-    "id": 324,
-    "type": "Downtown",
-    "airportCode": null,
-    "prefecture": "Rethymno",
-    "lat": 35.366511,
-    "lng": 24.491191,
-    "timeZone": "Europe/Athens",
-    "names": {
-      "en": "Rethymno",
-      "el": "Ρέθυμνο",
-      "de": "Rethymno",
-      "fr": "Rethymno",
-      "it": "Rethymno",
-      "nl": "Rethymnon",
-      "pl": "Rethymno"
     }
   },
   {

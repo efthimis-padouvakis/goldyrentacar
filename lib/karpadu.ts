@@ -1,5 +1,6 @@
 import "server-only";
 import type { Car, SearchQuery } from "@/lib/booking";
+import { carImage } from "@/lib/carImages";
 
 const BACKEND_TIMEOUT_MS = 20_000;
 const RETRY_IF_FAILED_WITHIN_MS = 3_000;
@@ -118,14 +119,18 @@ export async function fetchRawAvailability(query: SearchQuery, carID?: number): 
   });
   if (query.age) params.set("age", String(query.age));
   if (carID) params.set("carID", String(carID));
+  // The backend filters by one companyId only (a list returns 400); the filter below still covers several.
+  const companies = allowedCompanies();
+  if (companies?.size === 1) params.set("companyId", [...companies][0]);
 
   const body = (await requestWithRetry(`/GetAvailability?${params}`)) as { availability?: RawCar[]; displayCurrency?: string };
-  const companies = allowedCompanies();
   const cars = (body.availability ?? []).filter((car) => !companies || companies.has(String(car.companyId)));
   return { cars, currency: body.displayCurrency || "EUR" };
 }
 
 export function toPublicCar(raw: RawCar, currency: string): Car {
+  // Goldy's photos carry Goldy plates, so other suppliers keep their backend image.
+  const ownPhoto = allowedCompanies()?.has(String(raw.companyId)) ? carImage(raw.make, raw.model, raw.year) : null;
   return {
     carID: raw.carID,
     make: raw.make,
@@ -136,7 +141,7 @@ export function toPublicCar(raw: RawCar, currency: string): Car {
     doors: raw.doors ?? null,
     transmission: raw.transmission,
     fuelType: raw.fuelType,
-    imageURL: raw.imageURL ?? null,
+    imageURL: ownPhoto ?? raw.imageURL ?? null,
     ac: raw.ac !== false,
     minAge: raw.minAge ?? null,
     maxAge: raw.maxAge ?? null,

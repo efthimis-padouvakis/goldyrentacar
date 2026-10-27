@@ -11,15 +11,27 @@ if (!backend || !key) {
   process.exit(1);
 }
 
-async function fetchStations(lang) {
+// Same list as the availability filter. The backend takes one companyId per call, so several are merged.
+const companies = (process.env.GOLDY_COMPANY_IDS ?? "")
+  .split(",")
+  .map((value) => value.trim())
+  .filter(Boolean);
+
+async function fetchCompanyStations(lang, companyId) {
   const query = new URLSearchParams({ channel: process.env.KARPADU_CHANNEL || "karpadu", lang, countryCode: "GR" });
+  if (companyId) query.set("companyId", companyId);
   const res = await fetch(`${backend}/GetStations?${query}`, {
     headers: { "subscription-key": key },
     signal: AbortSignal.timeout(15_000),
   });
-  if (!res.ok) throw new Error(`GetStations ${lang} -> ${res.status}`);
+  if (!res.ok) throw new Error(`GetStations ${lang} ${companyId ?? ""} -> ${res.status}`);
   const data = await res.json();
   return data.stations ?? [];
+}
+
+async function fetchStations(lang) {
+  const lists = await Promise.all((companies.length ? companies : [null]).map((id) => fetchCompanyStations(lang, id)));
+  return [...new Map(lists.flat().map((s) => [s.locationID, s])).values()];
 }
 
 const base = (await fetchStations("en")).filter((s) => s.region === REGION);

@@ -52,7 +52,7 @@ export function businessJsonLd(locale: Locale, description: string) {
     name: COMPANY.name,
     url: localizedUrl(locale),
     logo: `${SITE_URL}/img/brand/logo.svg`,
-    image: `${SITE_URL}/img/fleet/citroen-c3-aircross-2026.avif`,
+    image: `${SITE_URL}/img/brand/cars/citroen-c3-aircross-2026.avif`,
     description,
     telephone: COMPANY.phone.replace(/\s/g, ""),
     email: COMPANY.email,
