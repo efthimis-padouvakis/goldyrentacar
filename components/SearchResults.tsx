@@ -271,10 +271,7 @@ export default function SearchResults({ locale, t, karpaduHref }: { locale: Loca
               </div>
             )}
           </div>
-          <a href={karpaduHref} className="mt-2 inline-flex items-center gap-1.5 text-xs font-medium text-ink/50 hover:text-sea-700">
-            <span className="size-1.5 rounded-full bg-sea-500" aria-hidden="true" />
-            {t.results.poweredBy} <span className="font-bold">Karpadu</span>
-          </a>
+        
 
           {activeCount > 0 && (
             <div className="mt-4 flex flex-wrap gap-2">
