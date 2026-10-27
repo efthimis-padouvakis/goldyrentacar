@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { localeMeta, locales, type Locale } from "@/lib/i18n/config";
+import { GOOGLE_REVIEWS } from "@/lib/reviews";
 import { COMPANY, SITE_URL } from "@/lib/site";
 
 export const CONTENT_UPDATED = "2026-10-24";
@@ -68,7 +69,7 @@ export function businessJsonLd(locale: Locale, description: string) {
       addressCountry: COMPANY.address.country,
     },
     areaServed: { "@type": "AdministrativeArea", name: "Crete" },
-    sameAs: [COMPANY.social.facebook, COMPANY.social.instagram],
+    sameAs: [COMPANY.social.facebook, COMPANY.social.instagram, GOOGLE_REVIEWS.mapsUrl],
     availableLanguage: locales.map((l) => localeMeta[l].name),
     brand: { "@type": "Brand", name: COMPANY.name },
     knowsAbout: ["Car rental in Crete", "Heraklion Airport car hire", "Chania Airport car hire", "Airport transfers"],

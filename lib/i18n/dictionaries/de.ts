@@ -278,6 +278,16 @@ const de: Dictionary = {
     text: "Unser Technologiepartner {karpadu} vergleicht Mietwagen in ganz Griechenland. Inselhopping nach Kreta? Finden Sie ein Auto in:",
     crete: "Mehr zu Mietwagen auf Kreta bei Karpadu",
   },
+  reviews: {
+    eyebrow: "Google-Bewertungen",
+    title: "Das sagen unsere Kunden",
+    text: "Echte Bewertungen von Reisenden, die bei uns auf Kreta ein Auto gemietet haben, so wie sie auf Google stehen.",
+    count: "{n} Google-Bewertungen",
+    outOf: "Bewertet mit {rating} von 5",
+    source: "Bewertung auf Google",
+    readAll: "Alle Bewertungen auf Google lesen",
+    write: "Bewertung schreiben",
+  },
   faq: {
     title: "Häufige Fragen",
     intro: "Alles, was Sie vor der Anmietung auf Kreta mit Goldy wissen müssen. Keine Antwort gefunden? Schreiben Sie uns per WhatsApp.",

@@ -278,6 +278,16 @@ const fr: Dictionary = {
     text: "Notre partenaire technologique {karpadu} compare la location de voitures dans toute la Grèce. Vous continuez vers d'autres îles ? Trouvez une voiture à :",
     crete: "En savoir plus sur la location de voiture en Crète sur Karpadu",
   },
+  reviews: {
+    eyebrow: "Avis Google",
+    title: "Ce que disent nos clients",
+    text: "De vrais avis de voyageurs qui ont loué une voiture chez nous en Crète, tels que publiés sur Google.",
+    count: "{n} avis Google",
+    outOf: "Noté {rating} sur 5",
+    source: "Avis sur Google",
+    readAll: "Lire tous les avis sur Google",
+    write: "Laisser un avis",
+  },
   faq: {
     title: "Questions fréquentes",
     intro: "Tout ce qu'il faut savoir avant de louer une voiture en Crète avec Goldy. Pas de réponse ? Écrivez-nous sur WhatsApp.",

@@ -278,6 +278,16 @@ const pl: Dictionary = {
     text: "Nasz partner technologiczny {karpadu} porównuje wynajem aut w całej Grecji. Planujesz kolejne wyspy po Krecie? Znajdź auto:",
     crete: "Więcej o wynajmie aut na Krecie w Karpadu",
   },
+  reviews: {
+    eyebrow: "Opinie Google",
+    title: "Co mówią nasi klienci",
+    text: "Prawdziwe opinie podróżnych, którzy wynajęli u nas auto na Krecie, opublikowane w Google.",
+    count: "Opinie w Google: {n}",
+    outOf: "Ocena {rating} na 5",
+    source: "Opinia w Google",
+    readAll: "Zobacz wszystkie opinie w Google",
+    write: "Napisz opinię",
+  },
   faq: {
     title: "Najczęstsze pytania",
     intro: "Wszystko, co warto wiedzieć przed wynajmem auta na Krecie w Goldy. Nie ma tu odpowiedzi? Napisz do nas na WhatsApp.",

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import GoogleReviews from "@/components/GoogleReviews";
 import PageHero from "@/components/PageHero";
 import { HeadsetIcon, PinIcon, SparkleIcon } from "@/components/icons";
 import { fleet } from "@/lib/fleet";
@@ -61,7 +62,9 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/about">) 
         </dl>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+      <GoogleReviews locale={locale} t={t} />
+
+      <section className="mx-auto max-w-7xl px-4 pb-16 sm:px-6">
         <div className="grid gap-4 md:grid-cols-3">
           {t.about.values.map((value, index) => {
             const Icon = VALUE_ICONS[index % VALUE_ICONS.length];

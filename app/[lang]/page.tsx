@@ -5,6 +5,7 @@ import BeyondCrete from "@/components/BeyondCrete";
 import CreteMap, { CreteOutline } from "@/components/CreteMap";
 import FaqList from "@/components/FaqList";
 import FleetCard from "@/components/FleetCard";
+import GoogleReviews, { GoogleRating } from "@/components/GoogleReviews";
 import JsonLd from "@/components/JsonLd";
 import SearchForm from "@/components/SearchForm";
 import {
@@ -61,9 +62,12 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
               {t.home.heroTitle}
             </h1>
             <p className="mt-5 max-w-xl text-pretty text-lg leading-relaxed text-white/70 max-sm:hidden">{t.home.heroSubtitle}</p>
-            <p className="mt-4 inline-flex items-center gap-2 rounded-full bg-gold-400/15 px-4 py-2 text-sm font-bold text-gold-200 ring-1 ring-gold-400/30 sm:mt-8">
-              <TagIcon className="text-gold-300" /> {fill(t.home.fromPrice, { price: COMPANY.priceFrom })}
-            </p>
+            <div className="mt-4 flex flex-wrap items-center gap-3 sm:mt-8">
+              <p className="inline-flex items-center gap-2 rounded-full bg-gold-400/15 px-4 py-2 text-sm font-bold text-gold-200 ring-1 ring-gold-400/30">
+                <TagIcon className="text-gold-300" /> {fill(t.home.fromPrice, { price: COMPANY.priceFrom })}
+              </p>
+              <GoogleRating locale={locale} t={t} tone="dark" className="max-sm:hidden" />
+            </div>
           </div>
           <div className="relative mt-6 hidden aspect-[16/10] lg:block">
             <div className="absolute inset-x-10 bottom-6 h-10 rounded-[50%] bg-black/50 blur-2xl" aria-hidden="true" />
@@ -85,8 +89,9 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           <h2 className="px-2 pb-3 pt-1 text-base font-extrabold text-ink sm:text-lg">{t.search.title}</h2>
           <SearchForm locale={locale} t={{ search: t.search, common: t.common }} />
         </div>
-        {/* On phones the subtitle sits under the form, so the form fits in the first screen */}
-        <p className="mt-5 px-2 text-pretty leading-relaxed text-ink/65 sm:hidden">{t.home.heroSubtitle}</p>
+        {/* On phones the rating and subtitle sit under the form, so the form fits in the first screen */}
+        <GoogleRating locale={locale} t={t} tone="light" className="ml-2 mt-5 sm:hidden" />
+        <p className="mt-4 px-2 text-pretty leading-relaxed text-ink/65 sm:hidden">{t.home.heroSubtitle}</p>
         <ul className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 px-2 sm:gap-6 lg:grid-cols-4">
           {t.home.trust.map((item, index) => {
             const Icon = TRUST_ICONS[index % TRUST_ICONS.length];
@@ -165,6 +170,8 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
           </ol>
         </div>
       </section>
+
+      <GoogleReviews locale={locale} t={t} />
 
       {/* Locations map */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:py-20">

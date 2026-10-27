@@ -278,6 +278,16 @@ const nl: Dictionary = {
     text: "Onze technologiepartner {karpadu} vergelijkt autoverhuur in heel Griekenland. Eilandhoppen na Kreta? Vind een auto in:",
     crete: "Meer over auto huren op Kreta bij Karpadu",
   },
+  reviews: {
+    eyebrow: "Google-reviews",
+    title: "Wat onze klanten zeggen",
+    text: "Echte reviews van reizigers die bij ons een auto huurden op Kreta, zoals geplaatst op Google.",
+    count: "{n} Google-reviews",
+    outOf: "Beoordeeld met {rating} van 5",
+    source: "Review op Google",
+    readAll: "Lees alle reviews op Google",
+    write: "Schrijf een review",
+  },
   faq: {
     title: "Veelgestelde vragen",
     intro: "Alles wat je moet weten voordat je een auto huurt op Kreta bij Goldy. Staat je vraag er niet bij? Stuur ons een WhatsApp-bericht.",

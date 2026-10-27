@@ -278,6 +278,16 @@ const it: Dictionary = {
     text: "Il nostro partner tecnologico {karpadu} confronta il noleggio auto in tutta la Grecia. Fai island hopping dopo Creta? Trova un'auto a:",
     crete: "Scopri di più sul noleggio auto a Creta su Karpadu",
   },
+  reviews: {
+    eyebrow: "Recensioni Google",
+    title: "Cosa dicono i nostri clienti",
+    text: "Recensioni reali di viaggiatori che hanno noleggiato un'auto con noi a Creta, così come pubblicate su Google.",
+    count: "{n} recensioni Google",
+    outOf: "Valutazione {rating} su 5",
+    source: "Recensione su Google",
+    readAll: "Leggi tutte le recensioni su Google",
+    write: "Scrivi una recensione",
+  },
   faq: {
     title: "Domande frequenti",
     intro: "Tutto ciò che devi sapere prima di noleggiare un'auto a Creta con Goldy. Non trovi la risposta? Scrivici su WhatsApp.",

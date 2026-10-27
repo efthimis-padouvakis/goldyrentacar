@@ -276,6 +276,16 @@ const en = {
     text: "Our booking technology partner {karpadu} compares car rental all over Greece. Island-hopping after Crete? Find a car in:",
     crete: "More about car rental in Crete on Karpadu",
   },
+  reviews: {
+    eyebrow: "Google reviews",
+    title: "What our customers say",
+    text: "Real reviews from travellers who rented a car with us in Crete, as posted on Google.",
+    count: "{n} Google reviews",
+    outOf: "Rated {rating} out of 5",
+    source: "Review on Google",
+    readAll: "Read all reviews on Google",
+    write: "Write a review",
+  },
   faq: {
     title: "Frequently asked questions",
     intro: "Everything you need to know before renting a car in Crete with Goldy. Can't find your answer? Message us on WhatsApp.",
