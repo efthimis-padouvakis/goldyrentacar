@@ -268,6 +268,12 @@ const it: Dictionary = {
       "Assistenza 24/7 e auto sostitutiva",
       "Nessun costo per cancellare o modificare",
     ],
+    nearbyTitle: "Nei dintorni",
+    tripsTitle: "Gite in giornata",
+    tipsTitle: "Consigli di guida",
+    faqTitle: "Domande frequenti",
+    ctaTitle: "Prenota la tua auto",
+    ctaText: "Prezzi in tempo reale per le tue date. Nessuna copertura richiede la carta di credito.",
     others: "Altri punti di ritiro",
     allPoints: "Tutti i punti che serviamo",
     popular: "Punti di ritiro più richiesti",
@@ -277,6 +283,95 @@ const it: Dictionary = {
     title: "Viaggi oltre Creta?",
     text: "Il nostro partner tecnologico {karpadu} confronta il noleggio auto in tutta la Grecia. Fai island hopping dopo Creta? Trova un'auto a:",
     crete: "Scopri di più sul noleggio auto a Creta su Karpadu",
+  },
+  noCard: {
+    navLabel: "Senza carta di credito",
+    title: "Noleggio auto Creta senza carta di credito né deposito",
+    description: "Noleggia un'auto a Creta senza carta di credito: paghi con carta di debito e con Copertura completa il deposito è 0 €. Ritiro agli aeroporti di Heraklion e Chania.",
+    eyebrow: "Senza carta di credito · Senza deposito",
+    h1: "Noleggio auto a Creta senza carta di credito e senza deposito",
+    lead: "Quasi tutti i noleggiatori a Creta vogliono una carta di credito per bloccare un deposito. Goldy no. Paghi con carta di debito e, con la Copertura completa, il deposito è 0 €: nessun importo bloccato su nessuna carta durante la vacanza.",
+    points: [
+      "Nessuna copertura richiede la carta di credito: paghi con carta di debito",
+      "Deposito 0 € con la Copertura completa o premium",
+      "Consegna agli arrivi negli aeroporti di Heraklion e Chania",
+      "Chilometri illimitati e assistenza stradale 24/7",
+    ],
+    searchTitle: "Cerca auto senza deposito",
+    howTitle: "Come funziona",
+    how: [
+      {
+        title: "Cerca le tue date",
+        text: "Scegli il luogo di ritiro e le date. Ogni auto mostra il deposito per ogni copertura e conferma che non serve la carta di credito.",
+      },
+      {
+        title: "Scegli la Copertura completa",
+        text: "Con la Copertura completa il deposito scende a 0 €. Su alcune auto, la Copertura premium azzera anche la franchigia.",
+      },
+      {
+        title: "Paga con carta di debito",
+        text: "Paghi online con la tua carta di debito. Al ritiro mostri patente e documento d'identità, firmi e parti.",
+      },
+    ],
+    coversTitle: "Quale copertura è senza deposito?",
+    coversText: "Ogni noleggio Goldy include la copertura furto e danni. La copertura che scegli determina deposito e franchigia, e nessuna richiede la carta di credito.",
+    coverHead: { cover: "Copertura", card: "Carta di credito", deposit: "Deposito", excess: "Franchigia" },
+    covers: [
+      { card: "Non serve", deposit: "Deposito rimborsabile", excess: "Standard" },
+      { card: "Non serve", deposit: "0 €", excess: "Ridotta" },
+      { card: "Non serve", deposit: "0 €", excess: "0 € (auto selezionate)" },
+    ],
+    coversNote: "Deposito e franchigia esatti di ogni auto sono indicati nei risultati prima della prenotazione.",
+    whyTitle: "Perché gli altri chiedono la carta di credito",
+    whyText: [
+      "I grandi marchi internazionali di solito bloccano un deposito su una carta di credito per coprire la franchigia. Molti banchi non accettano la carta di debito per questo blocco, e chi non ha una carta di credito resta senza auto in aeroporto.",
+      "Come azienda locale lavoriamo in modo diverso: la Copertura completa sostituisce il deposito e paghi con carta di debito.",
+    ],
+    bringTitle: "Cosa portare al ritiro",
+    bring: [
+      "La patente di guida",
+      "Passaporto o carta d'identità",
+      "Il permesso di guida internazionale, se la tua patente è stata rilasciata fuori dall'UE e lo richiede",
+    ],
+    pointsTitle: "Punti di ritiro senza carta di credito",
+    pointsText: "Le stesse coperture valgono in tutti i punti che serviamo:",
+    faqTitle: "Noleggiare senza carta di credito: domande",
+    faq: [
+      {
+        q: "Posso noleggiare un'auto a Creta senza carta di credito?",
+        a: "Sì. Goldy non chiede la carta di credito con nessuna copertura. Prenoti e paghi online con carta di debito, e al ritiro ti servono solo patente e documento d'identità.",
+      },
+      {
+        q: "Davvero non c'è deposito?",
+        a: "Con la Copertura completa o premium sì: il deposito è 0 € e non viene bloccato nulla. Con la Copertura base si applica un deposito rimborsabile, indicato su ogni auto prima della prenotazione.",
+      },
+      {
+        q: "Posso pagare con carta di debito?",
+        a: "Sì. Paghi online con carta di debito al momento della prenotazione e non ti serve una carta di credito in nessun momento.",
+      },
+      {
+        q: "Che differenza c'è tra Copertura completa e premium?",
+        a: "Entrambe portano il deposito a 0 €. La Copertura completa riduce la franchigia, cioè il massimo che paghi in caso di danni. La Copertura premium, su alcune auto, la azzera.",
+      },
+      {
+        q: "Vale anche agli aeroporti di Heraklion e Chania?",
+        a: "Sì. Le stesse coperture valgono agli aeroporti di Heraklion e Chania, ai porti e in tutte le località dove consegniamo. Ogni auto mostra il deposito per copertura.",
+      },
+      {
+        q: "I guidatori giovani hanno bisogno della carta di credito?",
+        a: "No, la regola è uguale per tutti. I limiti di età dipendono dalla categoria: inserisci l'età del guidatore nella ricerca per vedere le auto disponibili.",
+      },
+      {
+        q: "Cosa devo portare al ritiro?",
+        a: "La patente e il passaporto o la carta d'identità. Se la patente è stata rilasciata fuori dall'UE, potrebbe servire anche il permesso di guida internazionale.",
+      },
+    ],
+    ctaTitle: "Trova la tua auto senza deposito",
+    ctaText: "Controlla i prezzi in tempo reale per le tue date. Con la Copertura completa non viene bloccato nulla.",
+    ctaButton: "Cerca auto",
+    calloutTitle: "Niente carta di credito. Niente deposito.",
+    calloutText: "Paghi con carta di debito e scegli la Copertura completa: nessun importo bloccato su nessuna carta.",
+    calloutCta: "Come funziona",
   },
   reviews: {
     eyebrow: "Recensioni Google",
@@ -304,7 +399,7 @@ const it: Dictionary = {
       { q: "Posso cancellare o modificare la prenotazione?", a: "Sì. Non applichiamo penali di cancellazione o modifica. Contattaci via WhatsApp, telefono o email." },
       {
         q: "Serve una carta di credito?",
-        a: "Dipende dall'auto e dalla copertura scelta. Ogni auto indica prima della prenotazione se è richiesta una carta di credito.",
+        a: "No. Nessuna copertura richiede la carta di credito: paghi con carta di debito. Con la Copertura completa o premium anche il deposito è 0 €.",
       },
       {
         q: "Qual è l'età minima del conducente?",

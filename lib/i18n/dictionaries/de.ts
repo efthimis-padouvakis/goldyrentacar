@@ -268,6 +268,12 @@ const de: Dictionary = {
       "Pannenhilfe 24/7 und Ersatzwagen",
       "Keine Gebühren für Stornierung oder Änderung",
     ],
+    nearbyTitle: "In der Nähe",
+    tripsTitle: "Tagesausflüge",
+    tipsTitle: "Fahrtipps",
+    faqTitle: "Häufige Fragen",
+    ctaTitle: "Jetzt Auto buchen",
+    ctaText: "Live-Preise für Ihre Reisedaten. Bei keinem Schutzpaket ist eine Kreditkarte nötig.",
     others: "Weitere Abholorte",
     allPoints: "Alle Orte, die wir bedienen",
     popular: "Beliebte Abholorte",
@@ -277,6 +283,95 @@ const de: Dictionary = {
     title: "Reisen Sie über Kreta hinaus?",
     text: "Unser Technologiepartner {karpadu} vergleicht Mietwagen in ganz Griechenland. Inselhopping nach Kreta? Finden Sie ein Auto in:",
     crete: "Mehr zu Mietwagen auf Kreta bei Karpadu",
+  },
+  noCard: {
+    navLabel: "Ohne Kreditkarte",
+    title: "Mietwagen Kreta ohne Kreditkarte, ohne Kaution | Goldy",
+    description: "Mietwagen auf Kreta ohne Kreditkarte: Sie zahlen mit Debitkarte, mit Vollschutz beträgt die Kaution 0 €. Übergabe an den Flughäfen Heraklion und Chania.",
+    eyebrow: "Ohne Kreditkarte · Ohne Kaution",
+    h1: "Mietwagen auf Kreta ohne Kreditkarte und ohne Kaution",
+    lead: "Die meisten Vermieter auf Kreta verlangen eine Kreditkarte, um eine Kaution zu blockieren. Goldy nicht. Sie zahlen mit Debitkarte, und mit Vollschutz beträgt die Kaution 0 €, sodass während Ihres Urlaubs auf keiner Karte etwas blockiert wird.",
+    points: [
+      "Bei keinem Schutzpaket eine Kreditkarte nötig – Zahlung mit Debitkarte",
+      "0 € Kaution mit Voll- oder Premiumschutz",
+      "Meet & Greet an den Flughäfen Heraklion und Chania",
+      "Unbegrenzte Kilometer und Pannenhilfe rund um die Uhr",
+    ],
+    searchTitle: "Autos ohne Kaution suchen",
+    howTitle: "So funktioniert es",
+    how: [
+      {
+        title: "Reisedaten suchen",
+        text: "Wählen Sie Abholort und Reisedaten. Bei jedem Auto sehen Sie die Kaution für jedes Schutzpaket und dass keine Kreditkarte nötig ist.",
+      },
+      {
+        title: "Vollschutz wählen",
+        text: "Mit Vollschutz sinkt die Kaution auf 0 €. Bei ausgewählten Autos senkt der Premiumschutz zusätzlich die Selbstbeteiligung auf null.",
+      },
+      {
+        title: "Mit Debitkarte zahlen",
+        text: "Sie zahlen online mit Ihrer Debitkarte. Bei der Übergabe zeigen Sie Führerschein und Ausweis, unterschreiben und fahren los.",
+      },
+    ],
+    coversTitle: "Welches Schutzpaket ist ohne Kaution?",
+    coversText: "Jede Goldy-Miete enthält Diebstahl- und Schadensschutz. Das gewählte Paket bestimmt Kaution und Selbstbeteiligung, und keines davon verlangt eine Kreditkarte.",
+    coverHead: { cover: "Schutzpaket", card: "Kreditkarte", deposit: "Kaution", excess: "Selbstbeteiligung" },
+    covers: [
+      { card: "Nicht nötig", deposit: "Rückzahlbare Kaution", excess: "Standard" },
+      { card: "Nicht nötig", deposit: "0 €", excess: "Reduziert" },
+      { card: "Nicht nötig", deposit: "0 €", excess: "0 € (ausgewählte Autos)" },
+    ],
+    coversNote: "Die genaue Kaution und Selbstbeteiligung für jedes Auto sehen Sie in den Suchergebnissen vor der Buchung.",
+    whyTitle: "Warum andere Vermieter eine Kreditkarte verlangen",
+    whyText: [
+      "Internationale Vermieter blockieren meist eine Kaution auf einer Kreditkarte, um die Selbstbeteiligung abzusichern. Viele Schalter akzeptieren dafür keine Debitkarte, und Reisende ohne Kreditkarte werden am Flughafen abgewiesen.",
+      "Als lokales Unternehmen arbeiten wir anders: Mit Vollschutz entfällt die Kaution, und Sie zahlen mit Debitkarte.",
+    ],
+    bringTitle: "Das bringen Sie zur Übergabe mit",
+    bring: [
+      "Ihren Führerschein",
+      "Reisepass oder Personalausweis",
+      "Einen Internationalen Führerschein, falls Ihr Führerschein außerhalb der EU ausgestellt wurde und einen benötigt",
+    ],
+    pointsTitle: "Abholorte ohne Kreditkarte",
+    pointsText: "An allen Orten, die wir bedienen, gelten dieselben Schutzpakete:",
+    faqTitle: "Mieten ohne Kreditkarte: Fragen",
+    faq: [
+      {
+        q: "Kann ich auf Kreta ein Auto ohne Kreditkarte mieten?",
+        a: "Ja. Goldy verlangt bei keinem Schutzpaket eine Kreditkarte. Sie buchen und zahlen online mit Debitkarte, und bei der Übergabe brauchen Sie nur Führerschein und Ausweis.",
+      },
+      {
+        q: "Gibt es wirklich keine Kaution?",
+        a: "Mit Voll- oder Premiumschutz ja: Die Kaution beträgt 0 €, auf keiner Karte wird etwas blockiert. Beim Basisschutz fällt eine rückzahlbare Kaution an; jedes Auto zeigt den Betrag vor der Buchung.",
+      },
+      {
+        q: "Kann ich mit Debitkarte zahlen?",
+        a: "Ja. Sie zahlen bei der Buchung online mit Debitkarte und brauchen während der gesamten Miete keine Kreditkarte.",
+      },
+      {
+        q: "Was ist der Unterschied zwischen Vollschutz und Premiumschutz?",
+        a: "Beide senken die Kaution auf 0 €. Vollschutz reduziert die Selbstbeteiligung, also den Höchstbetrag, den Sie bei einem Schaden zahlen. Premiumschutz, bei ausgewählten Autos, senkt sie auf null.",
+      },
+      {
+        q: "Gilt das auch an den Flughäfen Heraklion und Chania?",
+        a: "Ja. Dieselben Schutzpakete gelten an den Flughäfen Heraklion und Chania, an den Häfen und in allen Orten, die wir beliefern. Jedes Auto zeigt die Kaution pro Paket.",
+      },
+      {
+        q: "Brauchen junge Fahrer eine Kreditkarte?",
+        a: "Nein, die Regel gilt für alle Fahrer. Die Altersgrenzen hängen von der Fahrzeugklasse ab; geben Sie das Alter in der Suche ein, um die passenden Autos zu sehen.",
+      },
+      {
+        q: "Was muss ich zur Übergabe mitbringen?",
+        a: "Ihren Führerschein und Reisepass oder Personalausweis. Wurde Ihr Führerschein außerhalb der EU ausgestellt, brauchen Sie eventuell zusätzlich einen Internationalen Führerschein.",
+      },
+    ],
+    ctaTitle: "Finden Sie Ihr Auto ohne Kaution",
+    ctaText: "Prüfen Sie die Live-Preise für Ihre Reisedaten. Mit Vollschutz wird auf keiner Karte etwas blockiert.",
+    ctaButton: "Autos suchen",
+    calloutTitle: "Keine Kreditkarte. Keine Kaution.",
+    calloutText: "Zahlen Sie mit Debitkarte und wählen Sie Vollschutz: Auf keiner Karte wird etwas blockiert.",
+    calloutCta: "So funktioniert es",
   },
   reviews: {
     eyebrow: "Google-Bewertungen",
@@ -304,7 +399,7 @@ const de: Dictionary = {
       { q: "Kann ich stornieren oder umbuchen?", a: "Ja. Wir erheben keine Storno- oder Änderungsgebühren. Kontaktieren Sie uns per WhatsApp, Telefon oder E-Mail." },
       {
         q: "Brauche ich eine Kreditkarte?",
-        a: "Das hängt vom Auto und vom gewählten Schutz ab. Bei jedem Auto sehen Sie vor der Buchung, ob eine Kreditkarte nötig ist.",
+        a: "Nein. Bei keinem Schutzpaket ist eine Kreditkarte nötig, Sie zahlen mit Debitkarte. Mit Voll- oder Premiumschutz beträgt auch die Kaution 0 €.",
       },
       {
         q: "Wie alt muss der Fahrer mindestens sein?",

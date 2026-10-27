@@ -268,6 +268,12 @@ const nl: Dictionary = {
       "24/7 pechhulp en vervangende auto",
       "Geen kosten om te annuleren of te wijzigen",
     ],
+    nearbyTitle: "In de buurt",
+    tripsTitle: "Dagtochten",
+    tipsTitle: "Rijtips",
+    faqTitle: "Veelgestelde vragen",
+    ctaTitle: "Boek je auto",
+    ctaText: "Live prijzen voor je data. Bij geen enkele dekking een creditcard nodig.",
     others: "Andere ophaalpunten",
     allPoints: "Alle locaties die we bedienen",
     popular: "Populaire ophaalpunten",
@@ -277,6 +283,95 @@ const nl: Dictionary = {
     title: "Reis je verder dan Kreta?",
     text: "Onze technologiepartner {karpadu} vergelijkt autoverhuur in heel Griekenland. Eilandhoppen na Kreta? Vind een auto in:",
     crete: "Meer over auto huren op Kreta bij Karpadu",
+  },
+  noCard: {
+    navLabel: "Zonder creditcard",
+    title: "Auto huren op Kreta zonder creditcard en borg | Goldy",
+    description: "Huur een auto op Kreta zonder creditcard: je betaalt met je debitcard en met Volledige dekking is de borg €0. Ophalen op de luchthavens van Heraklion en Chania.",
+    eyebrow: "Geen creditcard · Geen borg",
+    h1: "Auto huren op Kreta zonder creditcard en zonder borg",
+    lead: "De meeste verhuurders op Kreta willen een creditcard om een borg te blokkeren. Goldy niet. Je betaalt met je debitcard, en met Volledige dekking is de borg €0, dus er wordt tijdens je vakantie niets op een kaart geblokkeerd.",
+    points: [
+      "Bij geen enkele dekking een creditcard nodig – betaal met je debitcard",
+      "€0 borg met Volledige dekking of Premiumdekking",
+      "Meet & greet op de luchthavens van Heraklion en Chania",
+      "Onbeperkte kilometers en 24/7 pechhulp",
+    ],
+    searchTitle: "Zoek auto's zonder borg",
+    howTitle: "Zo werkt het",
+    how: [
+      {
+        title: "Zoek je data",
+        text: "Kies je ophaallocatie en data. Bij elke auto zie je de borg per dekking en dat er geen creditcard nodig is.",
+      },
+      {
+        title: "Kies Volledige dekking",
+        text: "Met Volledige dekking zakt de borg naar €0. Bij geselecteerde auto's brengt Premiumdekking ook het eigen risico naar nul.",
+      },
+      {
+        title: "Betaal met je debitcard",
+        text: "Je betaalt online met je debitcard. Bij het ophalen laat je je rijbewijs en identiteitsbewijs zien, tekent en rijdt weg.",
+      },
+    ],
+    coversTitle: "Welke dekking is zonder borg?",
+    coversText: "Elke huur bij Goldy is inclusief diefstal- en schadedekking. De dekking die je kiest bepaalt de borg en het eigen risico, en geen enkele vraagt om een creditcard.",
+    coverHead: { cover: "Dekking", card: "Creditcard", deposit: "Borg", excess: "Eigen risico" },
+    covers: [
+      { card: "Niet nodig", deposit: "Terugbetaalbare borg", excess: "Standaard" },
+      { card: "Niet nodig", deposit: "€0", excess: "Verlaagd" },
+      { card: "Niet nodig", deposit: "€0", excess: "€0 (geselecteerde auto's)" },
+    ],
+    coversNote: "De exacte borg en het eigen risico per auto zie je in de zoekresultaten, vóór je boekt.",
+    whyTitle: "Waarom andere verhuurders een creditcard vragen",
+    whyText: [
+      "Internationale verhuurketens blokkeren meestal een borg op een creditcard om het eigen risico te dekken. Veel balies accepteren daarvoor geen debitcard, waardoor reizigers zonder creditcard op het vliegveld worden weggestuurd.",
+      "Als lokaal bedrijf werken wij anders: Volledige dekking vervangt de borg, en je betaalt met je debitcard.",
+    ],
+    bringTitle: "Wat neem je mee bij het ophalen",
+    bring: [
+      "Je rijbewijs",
+      "Je paspoort of identiteitskaart",
+      "Een internationaal rijbewijs, als je rijbewijs buiten de EU is afgegeven en dat vereist",
+    ],
+    pointsTitle: "Ophaalpunten zonder creditcard",
+    pointsText: "Op elke locatie die we bedienen gelden dezelfde dekkingen:",
+    faqTitle: "Huren zonder creditcard: vragen",
+    faq: [
+      {
+        q: "Kan ik op Kreta een auto huren zonder creditcard?",
+        a: "Ja. Goldy vraagt bij geen enkele dekking om een creditcard. Je boekt en betaalt online met je debitcard, en bij het ophalen heb je alleen je rijbewijs en identiteitsbewijs nodig.",
+      },
+      {
+        q: "Is er echt geen borg?",
+        a: "Met Volledige dekking of Premiumdekking klopt dat: de borg is €0 en er wordt niets geblokkeerd. Met Basisdekking geldt een terugbetaalbare borg; elke auto toont het bedrag vóór je boekt.",
+      },
+      {
+        q: "Kan ik met een debitcard betalen?",
+        a: "Ja. Je betaalt bij het boeken online met je debitcard, dus je hebt op geen enkel moment een creditcard nodig.",
+      },
+      {
+        q: "Wat is het verschil tussen Volledige dekking en Premiumdekking?",
+        a: "Beide brengen de borg naar €0. Volledige dekking verlaagt het eigen risico, het maximum dat je betaalt bij schade. Premiumdekking, bij geselecteerde auto's, brengt het naar nul.",
+      },
+      {
+        q: "Geldt dit ook op de luchthavens van Heraklion en Chania?",
+        a: "Ja. Dezelfde dekkingen gelden op de luchthavens van Heraklion en Chania, in de havens en in alle badplaatsen waar we bezorgen. Elke auto toont de borg per dekking.",
+      },
+      {
+        q: "Hebben jonge bestuurders een creditcard nodig?",
+        a: "Nee, de regel is voor iedereen gelijk. Leeftijdsgrenzen hangen af van de autocategorie: vul de leeftijd van de bestuurder in bij het zoeken om te zien welke auto's je kunt huren.",
+      },
+      {
+        q: "Wat moet ik meenemen bij het ophalen?",
+        a: "Je rijbewijs en je paspoort of identiteitskaart. Is je rijbewijs buiten de EU afgegeven, dan heb je mogelijk ook een internationaal rijbewijs nodig.",
+      },
+    ],
+    ctaTitle: "Vind je auto zonder borg",
+    ctaText: "Bekijk live prijzen voor je data. Met Volledige dekking wordt er niets op een kaart geblokkeerd.",
+    ctaButton: "Zoek auto's",
+    calloutTitle: "Geen creditcard. Geen borg.",
+    calloutText: "Betaal met je debitcard en kies Volledige dekking: er wordt niets op een kaart geblokkeerd.",
+    calloutCta: "Zo werkt het",
   },
   reviews: {
     eyebrow: "Google-reviews",
@@ -304,7 +399,7 @@ const nl: Dictionary = {
       { q: "Kan ik mijn boeking annuleren of wijzigen?", a: "Ja. We rekenen geen annulerings- of wijzigingskosten. Neem contact op via WhatsApp, telefoon of e-mail." },
       {
         q: "Heb ik een creditcard nodig?",
-        a: "Dat hangt af van de auto en de gekozen dekking. Bij elke auto zie je vóór het boeken of een creditcard nodig is.",
+        a: "Nee. Bij geen enkele dekking is een creditcard nodig: je betaalt met je debitcard. Met Volledige dekking of Premiumdekking is ook de borg €0.",
       },
       {
         q: "Wat is de minimumleeftijd van de bestuurder?",

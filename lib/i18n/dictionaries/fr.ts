@@ -268,6 +268,12 @@ const fr: Dictionary = {
       "Assistance 24h/24 et véhicule de remplacement",
       "Aucuns frais pour annuler ou modifier",
     ],
+    nearbyTitle: "À proximité",
+    tripsTitle: "Excursions à la journée",
+    tipsTitle: "Conseils de conduite",
+    faqTitle: "Questions fréquentes",
+    ctaTitle: "Réservez votre voiture",
+    ctaText: "Prix en direct pour vos dates. Aucune carte de crédit, quelle que soit la protection.",
     others: "Autres lieux de prise en charge",
     allPoints: "Tous les lieux desservis",
     popular: "Points de départ populaires",
@@ -277,6 +283,95 @@ const fr: Dictionary = {
     title: "Vous voyagez au-delà de la Crète ?",
     text: "Notre partenaire technologique {karpadu} compare la location de voitures dans toute la Grèce. Vous continuez vers d'autres îles ? Trouvez une voiture à :",
     crete: "En savoir plus sur la location de voiture en Crète sur Karpadu",
+  },
+  noCard: {
+    navLabel: "Sans carte de crédit",
+    title: "Location voiture Crète sans carte de crédit ni caution",
+    description: "Louez une voiture en Crète sans carte de crédit : paiement par carte de débit et 0 € de caution avec la Protection complète. Aéroports d'Héraklion et La Canée.",
+    eyebrow: "Sans carte de crédit · Sans caution",
+    h1: "Location de voiture en Crète sans carte de crédit ni caution",
+    lead: "La plupart des loueurs en Crète exigent une carte de crédit pour bloquer une caution. Pas Goldy. Vous payez par carte de débit et, avec la Protection complète, la caution est de 0 € : rien n'est bloqué sur aucune carte pendant vos vacances.",
+    points: [
+      "Aucune carte de crédit, quelle que soit la protection : paiement par carte de débit",
+      "0 € de caution avec la Protection complète ou premium",
+      "Accueil aux aéroports d'Héraklion et de La Canée",
+      "Kilométrage illimité et assistance 24 h/24",
+    ],
+    searchTitle: "Rechercher une voiture sans caution",
+    howTitle: "Comment ça marche",
+    how: [
+      {
+        title: "Indiquez vos dates",
+        text: "Choisissez le lieu de prise en charge et vos dates. Chaque voiture affiche la caution de chaque protection et confirme qu'aucune carte de crédit n'est nécessaire.",
+      },
+      {
+        title: "Choisissez la Protection complète",
+        text: "Avec la Protection complète, la caution passe à 0 €. Sur certaines voitures, la Protection premium ramène aussi la franchise à zéro.",
+      },
+      {
+        title: "Payez par carte de débit",
+        text: "Vous payez en ligne avec votre carte de débit. À la prise en charge, vous présentez votre permis et une pièce d'identité, vous signez et vous partez.",
+      },
+    ],
+    coversTitle: "Quelle protection est sans caution ?",
+    coversText: "Chaque location Goldy inclut une protection vol et dommages. La protection choisie détermine la caution et la franchise, et aucune n'exige de carte de crédit.",
+    coverHead: { cover: "Protection", card: "Carte de crédit", deposit: "Caution", excess: "Franchise" },
+    covers: [
+      { card: "Pas nécessaire", deposit: "Caution remboursable", excess: "Standard" },
+      { card: "Pas nécessaire", deposit: "0 €", excess: "Réduite" },
+      { card: "Pas nécessaire", deposit: "0 €", excess: "0 € (certaines voitures)" },
+    ],
+    coversNote: "La caution et la franchise exactes de chaque voiture s'affichent dans les résultats avant la réservation.",
+    whyTitle: "Pourquoi les autres loueurs exigent une carte de crédit",
+    whyText: [
+      "Les grandes enseignes internationales bloquent généralement une caution sur une carte de crédit pour couvrir la franchise. Beaucoup de comptoirs refusent la carte de débit pour ce blocage, et les voyageurs sans carte de crédit repartent de l'aéroport sans voiture.",
+      "En tant qu'entreprise locale, nous fonctionnons autrement : la Protection complète remplace la caution, et vous payez par carte de débit.",
+    ],
+    bringTitle: "À apporter à la prise en charge",
+    bring: [
+      "Votre permis de conduire",
+      "Votre passeport ou carte d'identité",
+      "Un permis international, si votre permis a été délivré hors de l'UE et l'exige",
+    ],
+    pointsTitle: "Lieux de prise en charge sans carte de crédit",
+    pointsText: "Les mêmes protections s'appliquent partout où nous intervenons :",
+    faqTitle: "Louer sans carte de crédit : questions",
+    faq: [
+      {
+        q: "Peut-on louer une voiture en Crète sans carte de crédit ?",
+        a: "Oui. Goldy n'exige de carte de crédit pour aucune protection. Vous réservez et payez en ligne par carte de débit, et à la prise en charge il suffit de votre permis et d'une pièce d'identité.",
+      },
+      {
+        q: "N'y a-t-il vraiment aucune caution ?",
+        a: "Avec la Protection complète ou premium, oui : la caution est de 0 € et rien n'est bloqué. Avec la Protection de base, une caution remboursable s'applique ; chaque voiture affiche le montant avant la réservation.",
+      },
+      {
+        q: "Puis-je payer par carte de débit ?",
+        a: "Oui. Vous payez en ligne par carte de débit lors de la réservation, sans avoir besoin d'une carte de crédit à aucun moment.",
+      },
+      {
+        q: "Quelle différence entre Protection complète et Protection premium ?",
+        a: "Les deux ramènent la caution à 0 €. La Protection complète réduit la franchise, le montant maximal à votre charge en cas de dommage. La Protection premium, proposée sur certaines voitures, la ramène à zéro.",
+      },
+      {
+        q: "Est-ce valable aux aéroports d'Héraklion et de La Canée ?",
+        a: "Oui. Les mêmes protections s'appliquent aux aéroports d'Héraklion et de La Canée, aux ports et dans toutes les stations où nous livrons. Chaque voiture affiche la caution par protection.",
+      },
+      {
+        q: "Les jeunes conducteurs ont-ils besoin d'une carte de crédit ?",
+        a: "Non, la règle est la même pour tous. Les limites d'âge dépendent de la catégorie : indiquez l'âge du conducteur dans la recherche pour voir les voitures disponibles.",
+      },
+      {
+        q: "Que dois-je apporter à la prise en charge ?",
+        a: "Votre permis de conduire et votre passeport ou carte d'identité. Si votre permis a été délivré hors de l'UE, un permis international peut aussi être nécessaire.",
+      },
+    ],
+    ctaTitle: "Trouvez votre voiture sans caution",
+    ctaText: "Consultez les prix en direct pour vos dates. Avec la Protection complète, rien n'est bloqué sur une carte.",
+    ctaButton: "Rechercher",
+    calloutTitle: "Sans carte de crédit. Sans caution.",
+    calloutText: "Payez par carte de débit et choisissez la Protection complète : rien n'est bloqué sur aucune carte.",
+    calloutCta: "Comment ça marche",
   },
   reviews: {
     eyebrow: "Avis Google",
@@ -304,7 +399,7 @@ const fr: Dictionary = {
       { q: "Puis-je annuler ou modifier ma réservation ?", a: "Oui. Aucuns frais d'annulation ou de modification. Contactez-nous par WhatsApp, téléphone ou e-mail." },
       {
         q: "Ai-je besoin d'une carte de crédit ?",
-        a: "Cela dépend de la voiture et de la protection choisie. Chaque voiture indique avant la réservation si une carte de crédit est nécessaire.",
+        a: "Non. Aucune protection n'exige de carte de crédit : vous payez par carte de débit. Avec la Protection complète ou premium, la caution est aussi de 0 €.",
       },
       {
         q: "Quel est l'âge minimum du conducteur ?",

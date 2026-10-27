@@ -25,6 +25,9 @@ export const COMPANY = {
 
 export const KARPADU_URL = "https://www.karpadu.com";
 
+/** Landing page for "car rental Crete no credit card / no deposit" */
+export const NO_CARD_PATH = "/no-credit-card-car-rental-crete";
+
 export function whatsappLink(text?: string) {
   const base = `https://wa.me/${COMPANY.whatsapp}`;
   return text ? `${base}?text=${encodeURIComponent(text)}` : base;

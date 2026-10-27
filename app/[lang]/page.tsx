@@ -11,6 +11,7 @@ import SearchForm from "@/components/SearchForm";
 import {
   ArrowRightIcon,
   BookIcon,
+  CardIcon,
   CheckIcon,
   HeadsetIcon,
   InfinityIcon,
@@ -28,7 +29,7 @@ import { fill, getDictionary } from "@/lib/i18n";
 import { localeFrom } from "@/lib/i18n/params";
 import { locationPages } from "@/lib/locations";
 import { faqJsonLd, pageMetadata } from "@/lib/seo";
-import { COMPANY, whatsappLink } from "@/lib/site";
+import { COMPANY, NO_CARD_PATH, whatsappLink } from "@/lib/site";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]">): Promise<Metadata> {
   const locale = await localeFrom(params);
@@ -105,6 +106,16 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
             );
           })}
         </ul>
+        <Link
+          href={`/${locale}${NO_CARD_PATH}`}
+          className="mx-2 mt-6 flex items-center gap-3 rounded-2xl bg-gold-50 px-4 py-3 text-sm font-semibold text-ink ring-1 ring-gold-200 transition hover:ring-gold-400 sm:inline-flex"
+        >
+          <CardIcon className="shrink-0 text-lg text-gold-700" />
+          <span className="flex-1">
+            <span className="font-extrabold">{t.noCard.calloutTitle}</span> {t.noCard.calloutText}
+          </span>
+          <ArrowRightIcon className="shrink-0 text-gold-700" />
+        </Link>
       </section>
 
       {/* Why Goldy */}

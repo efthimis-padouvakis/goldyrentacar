@@ -3,7 +3,7 @@ import { localeMeta, locales, type Locale } from "@/lib/i18n/config";
 import { GOOGLE_REVIEWS } from "@/lib/reviews";
 import { COMPANY, SITE_URL } from "@/lib/site";
 
-export const CONTENT_UPDATED = "2026-10-24";
+export const CONTENT_UPDATED = "2026-10-27";
 
 export function localizedUrl(locale: Locale, path = "") {
   return `${SITE_URL}/${locale}${path}`;

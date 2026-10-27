@@ -2,9 +2,11 @@ import type { MetadataRoute } from "next";
 import { locales } from "@/lib/i18n/config";
 import { locationPages } from "@/lib/locations";
 import { CONTENT_UPDATED, hreflangAlternates, localizedUrl } from "@/lib/seo";
+import { NO_CARD_PATH } from "@/lib/site";
 
 const PAGES: { path: string; priority: number; changeFrequency: "weekly" | "monthly" | "yearly" }[] = [
   { path: "", priority: 1, changeFrequency: "weekly" },
+  { path: NO_CARD_PATH, priority: 0.9, changeFrequency: "monthly" },
   { path: "/fleet", priority: 0.9, changeFrequency: "monthly" },
   { path: "/locations", priority: 0.8, changeFrequency: "monthly" },
   ...locationPages.map((page) => ({ path: `/locations/${page.slug}`, priority: 0.8, changeFrequency: "monthly" as const })),

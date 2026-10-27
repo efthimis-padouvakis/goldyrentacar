@@ -266,6 +266,12 @@ const en = {
       "24/7 road assistance and replacement car",
       "No fees to cancel or change your booking",
     ],
+    nearbyTitle: "Near {place}",
+    tripsTitle: "Day trips from {place}",
+    tipsTitle: "Driving tips for {place}",
+    faqTitle: "{place}: frequently asked questions",
+    ctaTitle: "Book your car in {place}",
+    ctaText: "Live prices for your dates. No credit card needed on any cover.",
     others: "Other pick-up points",
     allPoints: "All pick-up points we serve",
     popular: "Popular pick-up points",
@@ -275,6 +281,95 @@ const en = {
     title: "Travelling beyond Crete?",
     text: "Our booking technology partner {karpadu} compares car rental all over Greece. Island-hopping after Crete? Find a car in:",
     crete: "More about car rental in Crete on Karpadu",
+  },
+  noCard: {
+    navLabel: "No credit card",
+    title: "Car Rental Crete – No Credit Card, No Deposit | Goldy",
+    description: "Rent a car in Crete with no credit card: pay by debit card, choose Full cover and the deposit is €0. Pick-up at Heraklion and Chania airports.",
+    eyebrow: "No credit card · No deposit",
+    h1: "Car rental in Crete with no credit card and no deposit",
+    lead: "Most rental desks in Crete want a credit card to block a deposit. Goldy doesn't. You pay by debit card, and when you choose Full cover the deposit is €0, so nothing is held on any card during your holiday.",
+    points: [
+      "No credit card on any cover – pay by debit card",
+      "€0 deposit with Full or Premium cover",
+      "Meet & greet at Heraklion and Chania airports",
+      "Unlimited kilometres and 24/7 road assistance",
+    ],
+    searchTitle: "Search cars with no deposit",
+    howTitle: "How it works",
+    how: [
+      {
+        title: "Search your dates",
+        text: "Choose your pick-up point and dates. Every car shows the deposit for each cover and confirms that no credit card is needed.",
+      },
+      {
+        title: "Choose Full cover",
+        text: "Select Full cover and the deposit drops to €0. On selected cars, Premium cover also brings the excess to zero.",
+      },
+      {
+        title: "Pay by debit card",
+        text: "Pay online with your debit card. At pick-up you show your driving licence and ID, sign, and drive away.",
+      },
+    ],
+    coversTitle: "Which cover has no deposit?",
+    coversText: "Every Goldy rental includes theft and damage cover. The cover you choose decides the deposit and the excess, and none of them needs a credit card.",
+    coverHead: { cover: "Cover", card: "Credit card", deposit: "Deposit", excess: "Excess" },
+    covers: [
+      { card: "Not needed", deposit: "Refundable deposit", excess: "Standard" },
+      { card: "Not needed", deposit: "€0", excess: "Reduced" },
+      { card: "Not needed", deposit: "€0", excess: "€0 (selected cars)" },
+    ],
+    coversNote: "The exact deposit and excess for each car are shown in the search results before you book.",
+    whyTitle: "Why other companies ask for a credit card",
+    whyText: [
+      "International rental brands usually block a security deposit on a credit card to cover the excess. Many desks won't accept a debit card for that block, so travellers without a credit card get turned away at the airport.",
+      "As a local company, we work differently: Full cover replaces the deposit, and you pay by debit card.",
+    ],
+    bringTitle: "What to bring at pick-up",
+    bring: [
+      "Your driving licence",
+      "Your passport or ID card",
+      "An International Driving Permit, if your licence was issued outside the EU and needs one",
+    ],
+    pointsTitle: "Pick-up points with no credit card",
+    pointsText: "The same covers apply at every point we serve:",
+    faqTitle: "Renting without a credit card: questions",
+    faq: [
+      {
+        q: "Can I rent a car in Crete without a credit card?",
+        a: "Yes. Goldy does not require a credit card on any cover. You book and pay online with a debit card, and at pick-up you only need your driving licence and ID.",
+      },
+      {
+        q: "Is there really no deposit?",
+        a: "With Full or Premium cover, yes: the deposit is €0 and nothing is blocked on any card. With Basic cover a refundable deposit applies, and each car shows the amount before you book.",
+      },
+      {
+        q: "Can I pay with a debit card?",
+        a: "Yes. You pay online by debit card when you book, so you don't need a credit card at any point of the rental.",
+      },
+      {
+        q: "What is the difference between Full and Premium cover?",
+        a: "Both bring the deposit to €0. Full cover reduces the excess, the most you would pay towards damage. Premium cover, offered on selected cars, brings the excess to zero.",
+      },
+      {
+        q: "Does this apply at Heraklion and Chania airports?",
+        a: "Yes. The same covers apply at Heraklion and Chania airports, the ports and every resort we deliver to. Each car in the search shows the deposit for each cover.",
+      },
+      {
+        q: "Do young drivers need a credit card?",
+        a: "No, the rule is the same for every driver. Age limits depend on the car category, so enter the driver's age in the search to see the cars you can rent.",
+      },
+      {
+        q: "What do I need to bring at pick-up?",
+        a: "Your driving licence and your passport or ID card. If your licence was issued outside the EU, you may also need an International Driving Permit.",
+      },
+    ],
+    ctaTitle: "Find your car with no deposit",
+    ctaText: "Check live prices for your dates. Choose Full cover and nothing is blocked on a card.",
+    ctaButton: "Search cars",
+    calloutTitle: "No credit card. No deposit.",
+    calloutText: "Pay by debit card and choose Full cover: nothing is blocked on any card.",
+    calloutCta: "How it works",
   },
   reviews: {
     eyebrow: "Google reviews",
@@ -302,7 +397,7 @@ const en = {
       { q: "Can I cancel or change my booking?", a: "Yes. We charge no cancellation or amendment fees. Just contact us by WhatsApp, phone or email." },
       {
         q: "Do I need a credit card?",
-        a: "It depends on the car and the cover you choose. Each car shows whether a credit card is needed before you book.",
+        a: "No. No credit card is needed on any cover: you pay by debit card. Choose Full or Premium cover and the deposit is €0 too.",
       },
       {
         q: "What is the minimum driver age?",

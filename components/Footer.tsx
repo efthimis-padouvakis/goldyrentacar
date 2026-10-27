@@ -6,12 +6,13 @@ import type { Locale } from "@/lib/i18n/config";
 import { fill, type Dictionary } from "@/lib/i18n";
 import { karpaduHref } from "@/lib/karpaduLinks";
 import { locationPages } from "@/lib/locations";
-import { COMPANY, whatsappLink } from "@/lib/site";
+import { COMPANY, NO_CARD_PATH, whatsappLink } from "@/lib/site";
 
 export default function Footer({ locale, t }: { locale: Locale; t: Dictionary }) {
   const explore = [
     { href: `/${locale}/fleet`, label: t.nav.fleet },
     { href: `/${locale}/locations`, label: t.nav.locations },
+    { href: `/${locale}${NO_CARD_PATH}`, label: t.noCard.navLabel },
     { href: `/${locale}/crete-driving-guide`, label: t.nav.guide },
     { href: `/${locale}/faq`, label: t.nav.faq },
     { href: `/${locale}/about`, label: t.nav.about },

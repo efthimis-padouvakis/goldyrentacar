@@ -1,5 +1,5 @@
 import { locationPages } from "@/lib/locations";
-import { COMPANY, KARPADU_URL, SITE_URL } from "@/lib/site";
+import { COMPANY, KARPADU_URL, NO_CARD_PATH, SITE_URL } from "@/lib/site";
 
 export function GET() {
   const lines = [
@@ -15,6 +15,7 @@ export function GET() {
     "",
     "## Pages",
     `- [Home](${SITE_URL}/en): search live availability`,
+    `- [No credit card, no deposit](${SITE_URL}/en${NO_CARD_PATH}): pay by debit card; Full cover has a €0 deposit`,
     `- [Fleet](${SITE_URL}/en/fleet): hybrid, electric and automatic cars`,
     `- [Locations](${SITE_URL}/en/locations): pick-up points in Crete`,
     ...locationPages.map((page) => `- [Car rental ${page.copy.en.name}](${SITE_URL}/en/locations/${page.slug})`),

@@ -268,6 +268,12 @@ const pl: Dictionary = {
       "Pomoc drogowa 24/7 i auto zastępcze",
       "Bez opłat za anulowanie lub zmianę",
     ],
+    nearbyTitle: "W okolicy",
+    tripsTitle: "Wycieczki jednodniowe",
+    tipsTitle: "Wskazówki dla kierowców",
+    faqTitle: "Najczęstsze pytania",
+    ctaTitle: "Zarezerwuj auto",
+    ctaText: "Ceny na żywo dla twoich dat. Karta kredytowa niepotrzebna przy żadnej ochronie.",
     others: "Inne punkty odbioru",
     allPoints: "Wszystkie obsługiwane miejsca",
     popular: "Popularne punkty odbioru",
@@ -277,6 +283,95 @@ const pl: Dictionary = {
     title: "Podróżujesz dalej niż Kreta?",
     text: "Nasz partner technologiczny {karpadu} porównuje wynajem aut w całej Grecji. Planujesz kolejne wyspy po Krecie? Znajdź auto:",
     crete: "Więcej o wynajmie aut na Krecie w Karpadu",
+  },
+  noCard: {
+    navLabel: "Bez karty kredytowej",
+    title: "Wynajem samochodu Kreta bez karty kredytowej i kaucji",
+    description: "Wynajmij auto na Krecie bez karty kredytowej: płacisz kartą debetową, a z Pełną ochroną kaucja wynosi 0 €. Odbiór na lotniskach w Heraklionie i Chanii.",
+    eyebrow: "Bez karty kredytowej · Bez kaucji",
+    h1: "Wynajem samochodu na Krecie bez karty kredytowej i bez kaucji",
+    lead: "Większość wypożyczalni na Krecie wymaga karty kredytowej, żeby zablokować kaucję. Goldy nie. Płacisz kartą debetową, a z Pełną ochroną kaucja wynosi 0 €, więc przez cały urlop nic nie jest blokowane na żadnej karcie.",
+    points: [
+      "Karta kredytowa niepotrzebna przy żadnej ochronie – płacisz kartą debetową",
+      "Kaucja 0 € z Pełną ochroną lub Ochroną premium",
+      "Odbiór w hali przylotów w Heraklionie i Chanii",
+      "Nielimitowane kilometry i pomoc drogowa 24/7",
+    ],
+    searchTitle: "Szukaj aut bez kaucji",
+    howTitle: "Jak to działa",
+    how: [
+      {
+        title: "Wybierz daty",
+        text: "Wybierz miejsce odbioru i daty. Przy każdym aucie widzisz kaucję dla każdej ochrony i informację, że karta kredytowa nie jest potrzebna.",
+      },
+      {
+        title: "Wybierz Pełną ochronę",
+        text: "Z Pełną ochroną kaucja spada do 0 €. Przy wybranych autach Ochrona premium obniża też udział własny do zera.",
+      },
+      {
+        title: "Zapłać kartą debetową",
+        text: "Płacisz online kartą debetową. Przy odbiorze pokazujesz prawo jazdy i dokument tożsamości, podpisujesz umowę i ruszasz.",
+      },
+    ],
+    coversTitle: "Która ochrona jest bez kaucji?",
+    coversText: "Każdy wynajem w Goldy obejmuje ochronę od kradzieży i uszkodzeń. Wybrana ochrona decyduje o kaucji i udziale własnym, a żadna nie wymaga karty kredytowej.",
+    coverHead: { cover: "Ochrona", card: "Karta kredytowa", deposit: "Kaucja", excess: "Udział własny" },
+    covers: [
+      { card: "Niepotrzebna", deposit: "Zwrotna kaucja", excess: "Standardowy" },
+      { card: "Niepotrzebna", deposit: "0 €", excess: "Obniżony" },
+      { card: "Niepotrzebna", deposit: "0 €", excess: "0 € (wybrane auta)" },
+    ],
+    coversNote: "Dokładną kaucję i udział własny dla każdego auta zobaczysz w wynikach wyszukiwania przed rezerwacją.",
+    whyTitle: "Dlaczego inne wypożyczalnie chcą karty kredytowej",
+    whyText: [
+      "Międzynarodowe sieci zwykle blokują kaucję na karcie kredytowej, żeby zabezpieczyć udział własny. Wiele stanowisk nie przyjmuje do tego karty debetowej, więc podróżni bez karty kredytowej odchodzą z lotniska bez auta.",
+      "Jako lokalna firma działamy inaczej: Pełna ochrona zastępuje kaucję, a płacisz kartą debetową.",
+    ],
+    bringTitle: "Co zabrać na odbiór",
+    bring: [
+      "Prawo jazdy",
+      "Paszport lub dowód osobisty",
+      "Międzynarodowe prawo jazdy, jeśli twoje prawo jazdy wydano poza UE i jest ono wymagane",
+    ],
+    pointsTitle: "Miejsca odbioru bez karty kredytowej",
+    pointsText: "W każdym miejscu, które obsługujemy, obowiązują te same ochrony:",
+    faqTitle: "Wynajem bez karty kredytowej: pytania",
+    faq: [
+      {
+        q: "Czy mogę wynająć auto na Krecie bez karty kredytowej?",
+        a: "Tak. Goldy nie wymaga karty kredytowej przy żadnej ochronie. Rezerwujesz i płacisz online kartą debetową, a przy odbiorze potrzebujesz tylko prawa jazdy i dokumentu tożsamości.",
+      },
+      {
+        q: "Czy naprawdę nie ma kaucji?",
+        a: "Z Pełną ochroną lub Ochroną premium tak: kaucja wynosi 0 € i nic nie jest blokowane. Przy Ochronie podstawowej obowiązuje zwrotna kaucja; każde auto pokazuje kwotę przed rezerwacją.",
+      },
+      {
+        q: "Czy mogę zapłacić kartą debetową?",
+        a: "Tak. Płacisz online kartą debetową przy rezerwacji, więc karta kredytowa nie jest potrzebna na żadnym etapie wynajmu.",
+      },
+      {
+        q: "Czym różni się Pełna ochrona od Ochrony premium?",
+        a: "Obie obniżają kaucję do 0 €. Pełna ochrona zmniejsza udział własny, czyli maksymalną kwotę, którą płacisz przy szkodzie. Ochrona premium, dostępna przy wybranych autach, obniża go do zera.",
+      },
+      {
+        q: "Czy to działa też na lotniskach w Heraklionie i Chanii?",
+        a: "Tak. Te same ochrony obowiązują na lotniskach w Heraklionie i Chanii, w portach i we wszystkich kurortach, do których dowozimy auta. Każde auto pokazuje kaucję dla każdej ochrony.",
+      },
+      {
+        q: "Czy młodzi kierowcy potrzebują karty kredytowej?",
+        a: "Nie, zasada jest taka sama dla wszystkich. Limity wieku zależą od kategorii auta: wpisz wiek kierowcy w wyszukiwarce, a zobaczysz auta, które możesz wynająć.",
+      },
+      {
+        q: "Co zabrać na odbiór auta?",
+        a: "Prawo jazdy oraz paszport lub dowód osobisty. Jeśli twoje prawo jazdy wydano poza UE, może być potrzebne także międzynarodowe prawo jazdy.",
+      },
+    ],
+    ctaTitle: "Znajdź auto bez kaucji",
+    ctaText: "Sprawdź ceny na żywo dla swoich dat. Z Pełną ochroną nic nie jest blokowane na karcie.",
+    ctaButton: "Szukaj aut",
+    calloutTitle: "Bez karty kredytowej. Bez kaucji.",
+    calloutText: "Płać kartą debetową i wybierz Pełną ochronę: nic nie jest blokowane na żadnej karcie.",
+    calloutCta: "Jak to działa",
   },
   reviews: {
     eyebrow: "Opinie Google",
@@ -304,7 +399,7 @@ const pl: Dictionary = {
       { q: "Czy mogę anulować lub zmienić rezerwację?", a: "Tak. Nie pobieramy opłat za anulowanie ani zmianę. Skontaktuj się przez WhatsApp, telefon lub e-mail." },
       {
         q: "Czy potrzebuję karty kredytowej?",
-        a: "To zależy od auta i wybranej ochrony. Przy każdym aucie przed rezerwacją widać, czy karta kredytowa jest wymagana.",
+        a: "Nie. Żadna ochrona nie wymaga karty kredytowej: płacisz kartą debetową. Z Pełną ochroną lub Ochroną premium kaucja też wynosi 0 €.",
       },
       {
         q: "Jaki jest minimalny wiek kierowcy?",
