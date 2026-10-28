@@ -488,57 +488,8 @@ const fr: Dictionary = {
       },
     ],
   },
-  privacy: {
-    title: "Politique de confidentialité",
-    updated: "Dernière mise à jour : octobre 2026",
-    sections: [
-      {
-        h: "Qui sommes-nous",
-        p: "Goldy Rent a Car, Irodotou 96, Nea Alikarnassos, 71408 Héraklion, Crète, Grèce, est responsable des données personnelles que vous partagez sur ce site. Contact : info@goldyrentacar.gr.",
-      },
-      {
-        h: "Ce que nous collectons",
-        p: "Lors d'une recherche ou d'une réservation, nous traitons les détails de votre voyage (lieux, dates, âge du conducteur) et, pour une réservation, vos nom, e-mail, téléphone, pays et numéro de vol.",
-      },
-      {
-        h: "Pourquoi nous les utilisons",
-        p: "Uniquement pour afficher les disponibilités, gérer votre réservation, vous contacter à son sujet et respecter nos obligations légales. Nous ne vendons jamais vos données.",
-      },
-      {
-        h: "Avec qui nous les partageons",
-        p: "Les disponibilités et réservations sont traitées via la plateforme de réservation Karpadu, qui agit pour notre compte. Nous ne partageons des données avec les autorités que si la loi l'exige.",
-      },
-      { h: "Durée de conservation", p: "Les données de réservation sont conservées aussi longtemps que l'exigent les lois comptables et de location, puis supprimées." },
-      {
-        h: "Vos droits",
-        p: "Vous pouvez demander l'accès, la rectification ou la suppression de vos données, ou vous opposer à leur utilisation, en écrivant à info@goldyrentacar.gr. Vous pouvez aussi saisir l'autorité grecque de protection des données (dpa.gr).",
-      },
-    ],
-  },
-  terms: {
-    title: "Conditions de location",
-    updated: "Dernière mise à jour : octobre 2026",
-    sections: [
-      {
-        h: "Réservation",
-        p: "Une demande de réservation est confirmée dès réception de notre e-mail de confirmation. La voiture affichée est un exemple de sa catégorie, le modèle exact peut varier.",
-      },
-      {
-        h: "Conditions pour le conducteur",
-        p: "Le conducteur doit être titulaire d'un permis valide et respecter les limites d'âge de la voiture. Un permis hors UE peut nécessiter un permis international.",
-      },
-      {
-        h: "Prix et paiement",
-        p: "Les prix incluent le kilométrage illimité et la protection vol & dommages. La protection, la franchise et la caution de votre voiture sont indiquées avant la réservation. Les options se paient au départ.",
-      },
-      { h: "Annulation et modifications", p: "Vous pouvez annuler ou modifier votre réservation sans frais. Merci de nous prévenir le plus tôt possible." },
-      {
-        h: "Utilisation de la voiture",
-        p: "Sortir la voiture de Crète ou rouler sur des routes non goudronnées nécessite notre accord écrit. Signalez-nous tout accident ou dommage et, si nécessaire, à la police.",
-      },
-      { h: "Carburant", p: "Restituez la voiture avec le même niveau de carburant ou de charge qu'au départ, sauf indication contraire dans votre confirmation." },
-    ],
-  },
+  privacy: { title: "Politique de confidentialité" },
+  terms: { title: "Conditions de location" },
   footer: {
     tagline: "Location de voiture locale à Héraklion, Crète. Accueil à l'aéroport, kilométrage illimité et service chaleureux.",
     explore: "Découvrir",

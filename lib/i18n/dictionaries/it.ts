@@ -488,57 +488,8 @@ const it: Dictionary = {
       },
     ],
   },
-  privacy: {
-    title: "Informativa sulla privacy",
-    updated: "Ultimo aggiornamento: ottobre 2026",
-    sections: [
-      {
-        h: "Chi siamo",
-        p: "Goldy Rent a Car, Irodotou 96, Nea Alikarnassos, 71408 Heraklion, Creta, Grecia, è titolare dei dati personali che condividi su questo sito. Contatto: info@goldyrentacar.gr.",
-      },
-      {
-        h: "Quali dati raccogliamo",
-        p: "Quando cerchi o prenoti trattiamo i dettagli del viaggio (luoghi, date, età del conducente) e, per una prenotazione, nome, email, telefono, paese e numero di volo.",
-      },
-      {
-        h: "Perché li usiamo",
-        p: "Solo per mostrare la disponibilità, gestire la prenotazione, contattarti al riguardo e rispettare gli obblighi di legge. Non vendiamo mai i tuoi dati.",
-      },
-      {
-        h: "Con chi li condividiamo",
-        p: "Disponibilità e prenotazioni sono elaborate tramite la piattaforma di prenotazione Karpadu, che agisce per nostro conto. Condividiamo dati con le autorità solo se la legge lo richiede.",
-      },
-      { h: "Per quanto tempo li conserviamo", p: "I dati di prenotazione sono conservati per il tempo richiesto dalle norme contabili e di noleggio, poi cancellati." },
-      {
-        h: "I tuoi diritti",
-        p: "Puoi chiedere accesso, rettifica o cancellazione dei dati, oppure opporti al loro uso, scrivendo a info@goldyrentacar.gr. Puoi anche presentare reclamo all'Autorità greca per la protezione dei dati (dpa.gr).",
-      },
-    ],
-  },
-  terms: {
-    title: "Condizioni di noleggio",
-    updated: "Ultimo aggiornamento: ottobre 2026",
-    sections: [
-      {
-        h: "Prenotazione",
-        p: "La richiesta di prenotazione è confermata quando ricevi la nostra email di conferma. L'auto mostrata è un esempio della sua categoria e il modello esatto può variare.",
-      },
-      {
-        h: "Requisiti del conducente",
-        p: "Il conducente deve avere una patente valida e rispettare i limiti di età dell'auto. Una patente extra UE può richiedere il permesso di guida internazionale.",
-      },
-      {
-        h: "Prezzo e pagamento",
-        p: "I prezzi includono chilometri illimitati e copertura furto e danni. Copertura, franchigia e deposito dell'auto sono indicati prima della prenotazione. Gli extra si pagano al ritiro.",
-      },
-      { h: "Cancellazione e modifiche", p: "Puoi cancellare o modificare la prenotazione gratuitamente. Avvisaci il prima possibile." },
-      {
-        h: "Uso dell'auto",
-        p: "Portare l'auto fuori da Creta o guidare su strade sterrate richiede il nostro consenso scritto. Segnala qualsiasi incidente o danno a noi e, se necessario, alla polizia.",
-      },
-      { h: "Carburante", p: "Riconsegna l'auto con lo stesso livello di carburante o di carica del ritiro, salvo diversa indicazione nella conferma." },
-    ],
-  },
+  privacy: { title: "Informativa sulla privacy" },
+  terms: { title: "Condizioni di noleggio" },
   footer: {
     tagline: "Noleggio auto locale a Heraklion, Creta. Ritiro in aeroporto, chilometri illimitati e servizio cordiale.",
     explore: "Esplora",

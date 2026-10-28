@@ -488,57 +488,8 @@ const de: Dictionary = {
       },
     ],
   },
-  privacy: {
-    title: "Datenschutzerklärung",
-    updated: "Zuletzt aktualisiert: Oktober 2026",
-    sections: [
-      {
-        h: "Wer wir sind",
-        p: "Goldy Rent a Car, Irodotou 96, Nea Alikarnassos, 71408 Heraklion, Kreta, Griechenland, ist verantwortlich für die personenbezogenen Daten, die Sie auf dieser Website angeben. Kontakt: info@goldyrentacar.gr.",
-      },
-      {
-        h: "Welche Daten wir erheben",
-        p: "Bei Suche oder Buchung verarbeiten wir Ihre Reisedaten (Orte, Daten, Fahreralter) und bei einer Buchung Name, E-Mail, Telefon, Land und Flugnummer.",
-      },
-      {
-        h: "Wofür wir sie nutzen",
-        p: "Nur um Verfügbarkeiten anzuzeigen, Ihre Buchung abzuwickeln, Sie dazu zu kontaktieren und gesetzliche Pflichten zu erfüllen. Wir verkaufen Ihre Daten niemals.",
-      },
-      {
-        h: "Mit wem wir sie teilen",
-        p: "Verfügbarkeit und Buchungen werden über die Buchungsplattform Karpadu verarbeitet, die in unserem Auftrag handelt. Mit Behörden teilen wir Daten nur, wenn das Gesetz es verlangt.",
-      },
-      { h: "Wie lange wir sie speichern", p: "Buchungsdaten werden so lange gespeichert, wie Steuer- und Mietrecht es verlangen, und danach gelöscht." },
-      {
-        h: "Ihre Rechte",
-        p: "Sie können Auskunft, Berichtigung oder Löschung Ihrer Daten verlangen oder der Nutzung widersprechen: per E-Mail an info@goldyrentacar.gr. Sie können sich auch bei der griechischen Datenschutzbehörde (dpa.gr) beschweren.",
-      },
-    ],
-  },
-  terms: {
-    title: "Mietbedingungen",
-    updated: "Zuletzt aktualisiert: Oktober 2026",
-    sections: [
-      {
-        h: "Buchung",
-        p: "Eine Buchungsanfrage ist bestätigt, sobald Sie unsere Bestätigungs-E-Mail erhalten. Das gezeigte Auto ist ein Beispiel seiner Kategorie, das genaue Modell kann abweichen.",
-      },
-      {
-        h: "Voraussetzungen für Fahrer",
-        p: "Der Fahrer braucht einen gültigen Führerschein und muss die Altersgrenzen des Autos erfüllen. Bei Führerscheinen von außerhalb der EU kann ein Internationaler Führerschein nötig sein.",
-      },
-      {
-        h: "Preis und Zahlung",
-        p: "Die Preise enthalten unbegrenzte Kilometer und Diebstahl- & Schadenschutz. Schutz, Selbstbeteiligung und Kaution Ihres Autos sehen Sie vor der Buchung. Extras zahlen Sie bei Abholung.",
-      },
-      { h: "Stornierung und Änderungen", p: "Sie können kostenlos stornieren oder umbuchen. Bitte informieren Sie uns so früh wie möglich." },
-      {
-        h: "Nutzung des Autos",
-        p: "Für Fahrten außerhalb Kretas oder auf unbefestigten Straßen brauchen Sie unsere schriftliche Zustimmung. Melden Sie Unfälle oder Schäden uns und, falls nötig, der Polizei.",
-      },
-      { h: "Kraftstoff", p: "Geben Sie das Auto mit demselben Tank- oder Ladestand zurück wie bei der Abholung, sofern Ihre Bestätigung nichts anderes nennt." },
-    ],
-  },
+  privacy: { title: "Datenschutzerklärung" },
+  terms: { title: "Mietbedingungen" },
   footer: {
     tagline: "Lokale Autovermietung in Heraklion, Kreta. Flughafenübergabe, unbegrenzte Kilometer und freundlicher Service.",
     explore: "Entdecken",

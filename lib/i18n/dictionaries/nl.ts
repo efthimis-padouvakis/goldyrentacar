@@ -488,57 +488,8 @@ const nl: Dictionary = {
       },
     ],
   },
-  privacy: {
-    title: "Privacybeleid",
-    updated: "Laatst bijgewerkt: oktober 2026",
-    sections: [
-      {
-        h: "Wie we zijn",
-        p: "Goldy Rent a Car, Irodotou 96, Nea Alikarnassos, 71408 Heraklion, Kreta, Griekenland, is verantwoordelijk voor de persoonsgegevens die je op deze website deelt. Contact: info@goldyrentacar.gr.",
-      },
-      {
-        h: "Wat we verzamelen",
-        p: "Bij zoeken of boeken verwerken we je reisgegevens (locaties, data, leeftijd bestuurder) en bij een boeking je naam, e-mail, telefoon, land en vluchtnummer.",
-      },
-      {
-        h: "Waarom we ze gebruiken",
-        p: "Alleen om beschikbaarheid te tonen, je boeking af te handelen, contact met je op te nemen en aan wettelijke verplichtingen te voldoen. We verkopen je gegevens nooit.",
-      },
-      {
-        h: "Met wie we ze delen",
-        p: "Beschikbaarheid en boekingen worden verwerkt via het reserveringsplatform Karpadu, dat namens ons handelt. We delen gegevens alleen met overheden als de wet dat vereist.",
-      },
-      { h: "Hoe lang we ze bewaren", p: "Boekingsgegevens bewaren we zo lang als boekhoud- en verhuurwetgeving vereist, daarna worden ze verwijderd." },
-      {
-        h: "Je rechten",
-        p: "Je kunt inzage, correctie of verwijdering van je gegevens vragen, of bezwaar maken tegen het gebruik ervan, via info@goldyrentacar.gr. Je kunt ook een klacht indienen bij de Griekse toezichthouder (dpa.gr).",
-      },
-    ],
-  },
-  terms: {
-    title: "Huurvoorwaarden",
-    updated: "Laatst bijgewerkt: oktober 2026",
-    sections: [
-      {
-        h: "Boeking",
-        p: "Een boekingsaanvraag is bevestigd zodra je onze bevestigingsmail ontvangt. De getoonde auto is een voorbeeld van de categorie, het exacte model kan afwijken.",
-      },
-      {
-        h: "Eisen aan de bestuurder",
-        p: "De bestuurder heeft een geldig rijbewijs en voldoet aan de leeftijdsgrenzen van de auto. Bij een rijbewijs van buiten de EU kan een internationaal rijbewijs nodig zijn.",
-      },
-      {
-        h: "Prijs en betaling",
-        p: "Prijzen zijn inclusief onbeperkt kilometers en diefstal- en schadedekking. De dekking, het eigen risico en de borg van je auto zie je vóór het boeken. Extra's betaal je bij het ophalen.",
-      },
-      { h: "Annuleren en wijzigen", p: "Je kunt je boeking kosteloos annuleren of wijzigen. Laat het ons zo vroeg mogelijk weten." },
-      {
-        h: "Gebruik van de auto",
-        p: "Voor het meenemen van de auto buiten Kreta of rijden op onverharde wegen is onze schriftelijke toestemming nodig. Meld elk ongeval of schade bij ons en, waar nodig, bij de politie.",
-      },
-      { h: "Brandstof", p: "Lever de auto in met hetzelfde brandstof- of laadniveau als bij het ophalen, tenzij je bevestiging iets anders vermeldt." },
-    ],
-  },
+  privacy: { title: "Privacybeleid" },
+  terms: { title: "Huurvoorwaarden" },
   footer: {
     tagline: "Lokale autoverhuur in Heraklion, Kreta. Ophalen op de luchthaven, onbeperkt kilometers en vriendelijke service.",
     explore: "Ontdekken",

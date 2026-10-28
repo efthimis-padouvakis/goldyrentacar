@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import LegalPage from "@/components/LegalPage";
 import { getDictionary } from "@/lib/i18n";
 import { localeFrom } from "@/lib/i18n/params";
+import { getLegal } from "@/lib/legal";
 import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/privacy">): Promise<Metadata> {
@@ -13,11 +14,12 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/privacy">)
 export default async function PrivacyPage({ params }: PageProps<"/[lang]/privacy">) {
   const locale = await localeFrom(params);
   const t = getDictionary(locale);
+  const legal = getLegal(locale);
   return (
     <LegalPage
       title={t.privacy.title}
-      updated={t.privacy.updated}
-      sections={t.privacy.sections}
+      doc={legal.privacy}
+      contents={legal.contents}
       crumbs={[
         { name: t.nav.home, href: `/${locale}` },
         { name: t.privacy.title, href: `/${locale}/privacy` },

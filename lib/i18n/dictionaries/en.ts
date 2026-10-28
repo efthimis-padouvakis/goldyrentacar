@@ -486,57 +486,8 @@ const en = {
       },
     ],
   },
-  privacy: {
-    title: "Privacy policy",
-    updated: "Last updated: October 2026",
-    sections: [
-      {
-        h: "Who we are",
-        p: "Goldy Rent a Car, Irodotou 96, Nea Alikarnassos, 71408 Heraklion, Crete, Greece, is responsible for the personal data you share on this website. Contact: info@goldyrentacar.gr.",
-      },
-      {
-        h: "What we collect",
-        p: "When you search or book, we process your trip details (locations, dates, driver age) and, for a booking, your name, email, phone, country and flight number.",
-      },
-      {
-        h: "Why we use it",
-        p: "Only to show availability, handle your booking, contact you about it and meet our legal obligations. We never sell your data.",
-      },
-      {
-        h: "Who we share it with",
-        p: "Availability and bookings are processed through the Karpadu reservation platform, which acts on our behalf. We share data with authorities only when the law requires it.",
-      },
-      { h: "How long we keep it", p: "Booking data is kept for as long as accounting and rental laws require, and then deleted." },
-      {
-        h: "Your rights",
-        p: "You can ask to access, correct or delete your data, or object to its use, by emailing info@goldyrentacar.gr. You can also complain to the Hellenic Data Protection Authority (dpa.gr).",
-      },
-    ],
-  },
-  terms: {
-    title: "Rental terms",
-    updated: "Last updated: October 2026",
-    sections: [
-      {
-        h: "Booking",
-        p: "A booking request is confirmed once you receive our confirmation email. The car shown is an example of its category, and the exact model may vary.",
-      },
-      {
-        h: "Driver requirements",
-        p: "The driver must hold a valid licence and meet the age limits shown for the car. A licence issued outside the EU may need an International Driving Permit.",
-      },
-      {
-        h: "Price and payment",
-        p: "Prices include unlimited kilometres and theft & damage cover. The cover, excess and deposit for your car are shown before you book. Extras are paid at pick-up.",
-      },
-      { h: "Cancellation and changes", p: "You can cancel or amend your booking free of charge. Please let us know as early as possible." },
-      {
-        h: "Using the car",
-        p: "Taking the car off Crete or driving on unpaved roads needs our written agreement. Report any accident or damage to us and, where needed, the police.",
-      },
-      { h: "Fuel", p: "Return the car with the same fuel or charge level as at pick-up, unless your confirmation says otherwise." },
-    ],
-  },
+  privacy: { title: "Privacy policy" },
+  terms: { title: "Rental terms" },
   footer: {
     tagline: "Local car rental in Heraklion, Crete. Airport pick-up, unlimited kilometres and friendly service.",
     explore: "Explore",

@@ -488,57 +488,8 @@ const pl: Dictionary = {
       },
     ],
   },
-  privacy: {
-    title: "Polityka prywatności",
-    updated: "Ostatnia aktualizacja: październik 2026",
-    sections: [
-      {
-        h: "Kim jesteśmy",
-        p: "Goldy Rent a Car, Irodotou 96, Nea Alikarnassos, 71408 Heraklion, Kreta, Grecja, jest administratorem danych osobowych przekazanych w tym serwisie. Kontakt: info@goldyrentacar.gr.",
-      },
-      {
-        h: "Jakie dane zbieramy",
-        p: "Przy wyszukiwaniu lub rezerwacji przetwarzamy szczegóły podróży (miejsca, daty, wiek kierowcy), a przy rezerwacji także imię i nazwisko, e-mail, telefon, kraj i numer lotu.",
-      },
-      {
-        h: "W jakim celu",
-        p: "Wyłącznie aby pokazać dostępność, obsłużyć rezerwację, kontaktować się w jej sprawie i spełnić obowiązki prawne. Nigdy nie sprzedajemy Twoich danych.",
-      },
-      {
-        h: "Komu je przekazujemy",
-        p: "Dostępność i rezerwacje są przetwarzane przez platformę rezerwacyjną Karpadu, działającą w naszym imieniu. Dane przekazujemy organom tylko wtedy, gdy wymaga tego prawo.",
-      },
-      { h: "Jak długo je przechowujemy", p: "Dane rezerwacji przechowujemy tak długo, jak wymagają tego przepisy księgowe i dotyczące wynajmu, a następnie je usuwamy." },
-      {
-        h: "Twoje prawa",
-        p: "Możesz zażądać dostępu do danych, ich poprawienia lub usunięcia albo sprzeciwić się ich wykorzystaniu, pisząc na info@goldyrentacar.gr. Możesz też złożyć skargę do greckiego organu ochrony danych (dpa.gr).",
-      },
-    ],
-  },
-  terms: {
-    title: "Warunki wynajmu",
-    updated: "Ostatnia aktualizacja: październik 2026",
-    sections: [
-      {
-        h: "Rezerwacja",
-        p: "Prośba o rezerwację jest potwierdzona po otrzymaniu naszego e-maila z potwierdzeniem. Pokazane auto to przykład kategorii, konkretny model może się różnić.",
-      },
-      {
-        h: "Wymagania wobec kierowcy",
-        p: "Kierowca musi mieć ważne prawo jazdy i spełniać limity wieku dla danego auta. Prawo jazdy spoza UE może wymagać międzynarodowego prawa jazdy.",
-      },
-      {
-        h: "Cena i płatność",
-        p: "Ceny obejmują nielimitowane kilometry oraz ochronę od kradzieży i uszkodzeń. Ochrona, udział własny i kaucja dla Twojego auta są widoczne przed rezerwacją. Dodatki opłacasz przy odbiorze.",
-      },
-      { h: "Anulowanie i zmiany", p: "Możesz bezpłatnie anulować lub zmienić rezerwację. Daj nam znać jak najwcześniej." },
-      {
-        h: "Korzystanie z auta",
-        p: "Wywiezienie auta poza Kretę lub jazda po drogach nieutwardzonych wymaga naszej pisemnej zgody. Zgłoś nam każdy wypadek lub szkodę, a w razie potrzeby także policji.",
-      },
-      { h: "Paliwo", p: "Zwróć auto z takim samym poziomem paliwa lub naładowania jak przy odbiorze, chyba że potwierdzenie mówi inaczej." },
-    ],
-  },
+  privacy: { title: "Polityka prywatności" },
+  terms: { title: "Warunki wynajmu" },
   footer: {
     tagline: "Lokalna wypożyczalnia samochodów w Heraklionie na Krecie. Odbiór na lotnisku, bez limitu kilometrów i przyjazna obsługa.",
     explore: "Odkrywaj",
